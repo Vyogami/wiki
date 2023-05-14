@@ -300,4 +300,3 @@ To run groovy scripts you can execute the following command.
 ```bash
 groovy <script_name>.groovy
 ```
-
