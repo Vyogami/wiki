@@ -1,9 +1,7 @@
-name: Run Python Script
+name: Update Index
 
 on:
   push:
-    branches:
-      - integrate-github-actions  # Replace with the branch name you want to trigger the workflow on
 
 jobs:
   run-script:
@@ -19,14 +17,20 @@ jobs:
       with:
         python-version: 3.9  # Replace with the desired Python version (e.g., 3.8)
 
-    - name: Run Python script
+    - name: Run generate-index.py
       run: python generate-index.py  # Replace with the command to run your Python script
 
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git diff --quiet || echo "::set-output name=changes::true"
+      
     - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "github-actions: generate README"
+        git commit -m "bot(README): update index"
         git push
 
