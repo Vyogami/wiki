@@ -1,0 +1,23 @@
+name: Run Python Script
+
+on:
+  push:
+    branches:
+      - integrate-github-actions  # Replace with the branch name you want to trigger the workflow on
+
+jobs:
+  run-script:
+    name: Run Python Script
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9  # Replace with the desired Python version (e.g., 3.8)
+
+    - name: Run Python script
+      run: python ../../generate-index.py  # Replace with the command to run your Python script
