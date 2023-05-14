@@ -26,23 +26,6 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 </details>
 
 <details>
-  <summary> <a href="./devdocs/docker/docker.md"> Docker </a> </summary>
-
-- [Docker](#docker)
-- [Installation](#installation)
-- [Basic Commands](#basic-commands)
-- [Container Management](#container-management)
-- [Port Mapping](#port-mapping)
-- [Example](#example)
-- [Image Management](#image-management)
-- [Volume Management](#volume-management)
-- [Network Management](#network-management)
-- [Miscellaneous Commands](#miscellaneous-commands)
-- [Further Reading](#further-reading)
-
-</details>
-
-<details>
   <summary> <a href="./devdocs/git/git.md"> Git </a> </summary>
 
 - [Git](#git)
@@ -78,5 +61,22 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 - [Math](#math)
 - [Random](#random)
 - [Executing Groovy scripts](#executing-groovy-scripts)
+
+</details>
+
+<details>
+  <summary> <a href="./devdocs/docker/docker.md"> Docker </a> </summary>
+
+- [Docker](#docker)
+- [Installation](#installation)
+- [Basic Commands](#basic-commands)
+- [Container Management](#container-management)
+- [Port Mapping](#port-mapping)
+- [Example](#example)
+- [Image Management](#image-management)
+- [Volume Management](#volume-management)
+- [Network Management](#network-management)
+- [Miscellaneous Commands](#miscellaneous-commands)
+- [Further Reading](#further-reading)
 
 </details>
