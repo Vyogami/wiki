@@ -1,8 +1,8 @@
-# Docker Documentation
+# Docker
 
 This document serves as a reference guide for using Docker, a popular platform for building, packaging, and distributing containerized applications. Docker allows you to create lightweight, isolated containers that encapsulate your application and its dependencies.
 
-- [Docker Documentation](#docker-documentation)
+- [Docker](#docker)
   - [Installation](#installation)
   - [Basic Commands](#basic-commands)
   - [Container Management](#container-management)
