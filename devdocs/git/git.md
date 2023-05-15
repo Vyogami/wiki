@@ -2,7 +2,10 @@
 
 This document serves as a reference guide for using Git, a distributed version control system widely used for managing source code and project files. Git enables multiple developers to collaborate on a project, track changes, and manage different versions of files.
 
+## Table of Contents
+
 - [Git](#git)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Repository Initialization](#repository-initialization)
   - [Configuration](#configuration)
