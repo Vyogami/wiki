@@ -16,6 +16,7 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
   <summary> <a href="./devdocs/conda/conda .md"> Conda </a> </summary>
 
 - [Conda](#conda)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Environment Management](#environment-management)
 - [Package Management](#package-management)
@@ -29,6 +30,7 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
   <summary> <a href="./devdocs/git/git.md"> Git </a> </summary>
 
 - [Git](#git)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Repository Initialization](#repository-initialization)
 - [Configuration](#configuration)
@@ -80,6 +82,7 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
   <summary> <a href="./devdocs/docker/docker.md"> Docker </a> </summary>
 
 - [Docker](#docker)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
 - [Basic Commands](#basic-commands)
 - [Container Management](#container-management)
