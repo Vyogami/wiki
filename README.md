@@ -13,85 +13,76 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 ## Index
 
 <details>
-  <summary> <a href="./devdocs/conda/conda .md"> Conda </a> </summary>
+  <summary> <a href="./devdocs/conda/conda.md"> Conda </a> </summary>
 
-- [Conda](#conda)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Environment Management](#environment-management)
-- [Package Management](#package-management)
-- [Managing Channels](#managing-channels)
-- [Miscellaneous Commands](#miscellaneous-commands)
-- [Further Reading](#further-reading)
+- Installation
+- Environment Management
+- Package Management
+- Managing Channels
+- Miscellaneous Commands
+- Further Reading
 
 </details>
 
 <details>
   <summary> <a href="./devdocs/git/git.md"> Git </a> </summary>
 
-- [Git](#git)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Repository Initialization](#repository-initialization)
-- [Configuration](#configuration)
-- [Branches](#branches)
-- [Committing Changes](#committing-changes)
-- [Updating and Synchronizing](#updating-and-synchronizing)
-- [History and Logs](#history-and-logs)
-- [Remote Repository](#remote-repository)
-- [Undoing Changes](#undoing-changes)
-- [Stash](#stash)
-- [Collaboration and Advanced Operations](#collaboration-and-advanced-operations)
-- [Further Reading](#further-reading)
+- Installation
+- Repository Initialization
+- Configuration
+- Branches
+- Committing Changes
+- Updating and Synchronizing
+- History and Logs
+- Remote Repository
+- Undoing Changes
+- Stash
+- Collaboration and Advanced Operations
+- Further Reading
 
 </details>
 
 <details>
   <summary> <a href="./devdocs/pip/pip.md"> Pip </a> </summary>
 
-- [PIP (Python Package Installer)](#pip-python-package-installer)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Virtual Environments](#virtual-environments)
-- [Further Reading](#further-reading)
+- PIP (Python Package Installer)
+- Installation
+- Usage
+- Virtual Environments
+- Further Reading
 
 </details>
 
 <details>
   <summary> <a href="./devdocs/groovy/groovy.md"> Groovy </a> </summary>
 
-- [Groovy](#groovy)
-- [Table of contents](#table-of-contents)
-- [Key features](#key-features)
-- [def Keyword](#def-keyword)
-- [Parenthesis Usage](#parenthesis-usage)
-- [Strings](#strings)
-- [Closures](#closures)
-- [Lists](#lists)
-- [Maps](#maps)
-- [File I/O](#file-io)
-- [Console I/O](#console-io)
-- [Math](#math)
-- [Random](#random)
-- [Executing Groovy scripts](#executing-groovy-scripts)
+- Key features
+- def Keyword
+- Parenthesis Usage
+- Strings
+- Closures
+- Lists
+- Maps
+- File I/O
+- Console I/O
+- Math
+- Random
+- Executing Groovy scripts
 
 </details>
 
 <details>
   <summary> <a href="./devdocs/docker/docker.md"> Docker </a> </summary>
 
-- [Docker](#docker)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Basic Commands](#basic-commands)
-- [Container Management](#container-management)
-- [Port Mapping](#port-mapping)
-- [Example](#example)
-- [Image Management](#image-management)
-- [Volume Management](#volume-management)
-- [Network Management](#network-management)
-- [Miscellaneous Commands](#miscellaneous-commands)
-- [Further Reading](#further-reading)
+- Installation
+- Basic Commands
+- Container Management
+- Port Mapping
+- Example
+- Image Management
+- Volume Management
+- Network Management
+- Miscellaneous Commands
+- Further Reading
 
 </details>
