@@ -45,6 +45,18 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 </details>
 
 <details>
+  <summary> <a href="./devdocs/pip/pip.md"> Pip </a> </summary>
+
+- [PIP (Python Package Installer)](#pip-python-package-installer)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Virtual Environments](#virtual-environments)
+- [Further Reading](#further-reading)
+
+</details>
+
+<details>
   <summary> <a href="./devdocs/groovy/groovy.md"> Groovy </a> </summary>
 
 - [Groovy](#groovy)
