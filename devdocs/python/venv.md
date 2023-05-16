@@ -1,10 +1,10 @@
-# VENV
+# VENVm (Python Virtual Environments)
 
 VENV is a built-in module in Python that allows you to create isolated environments for your Python projects. It provides a clean and separate space where you can install packages and dependencies without affecting your system's global Python installation. This README provides an overview of VENV and instructions on how to use it effectively.
 
 ## Table of Contents
 
-- [VENV](#venv)
+- [VENVm (Python Virtual Environments)](#venvm-python-virtual-environments)
   - [Table of Contents](#table-of-contents)
   - [Creation](#creation)
   - [Activation](#activation)
