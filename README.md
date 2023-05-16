@@ -65,6 +65,17 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 </details>
 
 <details>
+  <summary> <a href="./devdocs/python/poetry.md"> Poetry </a> </summary>
+
+- Installation
+- Creating a New Project
+- Managing Dependencies
+- Environment Management
+- Building and Running
+
+</details>
+
+<details>
   <summary> <a href="./devdocs/groovy/groovy.md"> Groovy </a> </summary>
 
 - Key features
