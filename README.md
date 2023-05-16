@@ -43,7 +43,17 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 </details>
 
 <details>
-  <summary> <a href="./devdocs/pip/pip.md"> Pip </a> </summary>
+  <summary> <a href="./devdocs/python/venv.md"> Venv </a> </summary>
+
+- Creation
+- Activation
+- Deactivation
+- Usage
+
+</details>
+
+<details>
+  <summary> <a href="./devdocs/python/pip.md"> Pip </a> </summary>
 
 - PIP (Python Package Installer)
 - Installation
