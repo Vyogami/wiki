@@ -11,6 +11,7 @@ Poetry is a dependency manager and build tool for Python. It is designed to simp
   - [Managing Dependencies](#managing-dependencies)
   - [Environment Management](#environment-management)
   - [Building and Running](#building-and-running)
+  - [Youtube Videos](#youtube-videos)
 
 ## Installation
 
@@ -39,6 +40,12 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
   ```
 
   This command installs the specified package and its dependencies and adds it to the `pyproject.toml` file.
+
+- **Add a dependency in development mode**:
+  
+  ```shell
+  poetry add -D package_name
+  ```
 
 - **Remove a dependency**:
 
@@ -131,3 +138,8 @@ Poetry provides several commands to build and run your Python project. Here are 
   ```
 
   This command runs the specified Python script within the project's virtual environment.
+
+## YouTube Videos
+
+- **Quick overview**: [NeuralNine](https://www.youtube.com/watch?v=Qks3eqlImy8)
+  
