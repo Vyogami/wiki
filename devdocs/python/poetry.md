@@ -100,6 +100,18 @@ Poetry provides an integrated approach to manage Python environments for your pr
 
   Use this command to exit the virtual environment and return to your system's default Python environment.
 
+- **Remove the virtual environment**:
+  
+  To remove a virtual environment created by poetry you can simply delete the env
+
+  For example:
+
+  ```shell
+  rm -rf ~/.cache/pypoetry/virtualenvs/scraper-2VoIUhnA-py3.5 
+  ```
+  
+  > **Note**: you can check the location of the env by executing `which python` after activating the env using `poetry shell`.
+
 ## Building and Running
 
 Poetry provides several commands to build and run your Python project. Here are some common commands and their usage:
@@ -119,11 +131,3 @@ Poetry provides several commands to build and run your Python project. Here are 
   ```
 
   This command runs the specified Python script within the project's virtual environment.
-
-- **Start a virtual environment shell**:
-
-  ```shell
-  poetry shell
-  ```
-
-  This command starts a new shell session with the project's virtual environment activated.
