@@ -1,6 +1,6 @@
 # PIP (Python Package Installer)
 
-PIP is the package installer for Python. It is a command-line tool that allows you to easily install, upgrade, and manage Python packages and their dependencies. This README provides an overview of PIP and instructions on how to use it effectively.
+PIP is the package installer for Python. It is a command-line tool that allows you to easily install, upgrade, and manage Python packages and their dependencies.
 
 ## Table of Contents
 
