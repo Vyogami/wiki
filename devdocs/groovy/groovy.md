@@ -289,7 +289,7 @@ In Groovy, you can generate random numbers using the `Random` class. Here are so
    def randomElement = list.get(random.nextInt(list.size())) // Retrieves a random element from the list
    ```
 
-> Note: Each time you run the code, the generated random numbers or shuffling results may vary.
+> **Note**: Each time you run the code, the generated random numbers or shuffling results may vary.
 
 ## Executing Groovy scripts
 
