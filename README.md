@@ -72,6 +72,7 @@ So grab your favorite caffeinated beverage, put on your lucky coding socks, and 
 - Managing Dependencies
 - Environment Management
 - Building and Running
+- Youtube Videos
 
 </details>
 
