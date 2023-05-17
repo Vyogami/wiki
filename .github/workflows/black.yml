@@ -1,4 +1,4 @@
-name: Black Formatting
+name: Black formatting
 
 on: [push, pull_request]
 
@@ -10,24 +10,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: Run Black
+        uses: psf/black@stable
         with:
-          python-version: 3.11.3
-
-      - name: Install dependencies
-        run: python -m pip install --upgrade pip
-          
-      - name: Format code with Black
-        run: python -m pip install black && black .
+          options: ""
 
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "bot(black): format using black"
-      
+          git commit -m "chore: run Black code formatting"
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

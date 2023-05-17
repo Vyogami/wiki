@@ -31,6 +31,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "bot(README): update index"
+        git commit -m "feat(README): Update repository index"
         git push
 
