@@ -26,3 +26,4 @@ assets_version = "2.0.1" # do not edit: managed by `mdbook-admonish install`
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-highlight.css", "./preprocessors/css/pagetoc-sidebar.css", "./preprocessors/css/mdbook-admonish.css"]
 additional-js = ["./preprocessors/js/mermaid.min.js", "./preprocessors/js/mermaid-init.js", "./preprocessors/js/pagetoc-sidebar.js"]
+default-theme = "Macchiato"
