@@ -5,6 +5,12 @@ authors: legitShivam
 tags: [docusaurus, vyogami, digtal-garden]
 ---
 
+<p align="center">
+<img src="img/vyogami.png" width="200"></img>
+<h1>Vyogami</h1>
+/ˈvʲoɡəmi/
+</p>
+
 Welcome to my first blog post on Vyogami, my very own digital garden! In this post, I will walk you through the process of setting up Vyogami using Docusaurus, a powerful and feature-rich documentation generator. Unlike my previous attempt with mdbook, Docusaurus offers a wide range of benefits, including enhanced code block syntax highlighting and support for blocks.
 
 ## What is a Digital Garden?
