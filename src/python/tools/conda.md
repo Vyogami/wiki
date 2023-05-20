@@ -4,14 +4,7 @@ This document serves as a quick reference guide for using Conda, a package and e
 
 ## Table of Contents
 
-- [Conda](#conda)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Environment Management](#environment-management)
-  - [Package Management](#package-management)
-  - [Managing Channels](#managing-channels)
-  - [Miscellaneous Commands](#miscellaneous-commands)
-  - [Further Reading](#further-reading)
+<!-- toc -->
 
 ## Installation
 

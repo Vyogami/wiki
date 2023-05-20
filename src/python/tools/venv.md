@@ -4,12 +4,7 @@ VENV is a built-in module in Python that allows you to create isolated environme
 
 ## Table of Contents
 
-- [VENV (Python Virtual Environments)](#venv-python-virtual-environments)
-  - [Table of Contents](#table-of-contents)
-  - [Creation](#creation)
-  - [Activation](#activation)
-  - [Deactivation](#deactivation)
-  - [Usage](#usage)
+<!-- toc -->
 
 ## Creation
 

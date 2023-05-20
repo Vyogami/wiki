@@ -4,20 +4,7 @@ This document serves as a reference guide for using Git, a distributed version c
 
 ## Table of Contents
 
-- [Git](#git)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Repository Initialization](#repository-initialization)
-  - [Configuration](#configuration)
-  - [Branches](#branches)
-  - [Committing Changes](#committing-changes)
-  - [Updating and Synchronizing](#updating-and-synchronizing)
-  - [History and Logs](#history-and-logs)
-  - [Remote Repository](#remote-repository)
-  - [Undoing Changes](#undoing-changes)
-  - [Stash](#stash)
-  - [Collaboration and Advanced Operations](#collaboration-and-advanced-operations)
-  - [Further Reading](#further-reading)
+<!-- toc -->
 
 ## Installation
 
