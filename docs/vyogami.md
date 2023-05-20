@@ -15,3 +15,5 @@ Within these digital pages, you'll find a wondrous collection of my notes and se
 Please remember, my fellow readers, that these notes are not for the faint of heart. They are imbued with secret reaping spells, unexpected bugs, and the occasional cryptic comment left by a long-lost programmer from a bygone era.
 
 So grab your favorite caffeinated beverage, put on your lucky coding socks, and embark on this whimsical journey through my mind. But remember, dear friend, if you dare to wield this knowledge, do so at your own peril! Muahaha! 😈
+
+<p align="right">- CodeReaper</p>
