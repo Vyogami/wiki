@@ -4,12 +4,7 @@ PIP is the package installer for Python. It is a command-line tool that allows y
 
 ## Table of Contents
 
-- [PIP (Python Package Installer)](#pip-python-package-installer)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Virtual Environments](#virtual-environments)
-  - [Further Reading](#further-reading)
+<!-- toc -->
 
 ## Installation
 

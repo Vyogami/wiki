@@ -4,20 +4,7 @@ Groovy is an object-oriented programming language that is designed to enhance an
 
 ## Table of Contents
 
-- [Groovy](#groovy)
-  - [Table of Contents](#table-of-contents)
-  - [Key features](#key-features)
-  - [def Keyword](#def-keyword)
-  - [Parenthesis Usage](#parenthesis-usage)
-  - [Strings](#strings)
-  - [Closures](#closures)
-  - [Lists](#lists)
-  - [Maps](#maps)
-  - [File I/O](#file-io)
-  - [Console I/O](#console-io)
-  - [Math](#math)
-  - [Random](#random)
-  - [Executing Groovy scripts](#executing-groovy-scripts)
+<!-- toc -->
 
 ## Key features
 

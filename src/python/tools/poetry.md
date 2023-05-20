@@ -4,14 +4,7 @@ Poetry is a dependency manager and build tool for Python. It is designed to simp
 
 ## Table of Contents
 
-- [POETRY](#poetry)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Creating a New Project](#creating-a-new-project)
-  - [Managing Dependencies](#managing-dependencies)
-  - [Environment Management](#environment-management)
-  - [Building and Running](#building-and-running)
-  - [YouTube Videos](#youtube-videos)
+<!-- toc -->
 
 ## Installation
 
