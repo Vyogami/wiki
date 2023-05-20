@@ -10,19 +10,19 @@ PIP is the package installer for Python. It is a command-line tool that allows y
 
 PIP comes pre-installed with Python versions 3.4 and above. If you have an older version of Python or want to upgrade to the latest version of PIP, you can use the following command:
 
-```shell
+```bash
 python -m ensurepip --upgrade
 ```
 
 Alternatively, you can install PIP using the `get-pip.py` script. First, download the script by running the following command:
 
-```shell
+```bash
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 
 Then, execute the script to install PIP:
 
-```shell
+```bash
 python get-pip.py
 ```
 
@@ -32,7 +32,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Search for a package**:
 
-  ```shell
+  ```bash
   pip search search_query
   ```
 
@@ -40,7 +40,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Install a package**:
 
-  ```shell
+  ```bash
   pip install package_name
   ```
 
@@ -48,7 +48,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Install a specific package version**:
 
-  ```shell
+  ```bash
   pip install package_name==1.2.3
   ```
 
@@ -56,7 +56,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Upgrade a package**:
 
-  ```shell
+  ```bash
   pip install --upgrade package_name
   ```
 
@@ -64,7 +64,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Uninstall a package**:
 
-  ```shell
+  ```bash
   pip uninstall package_name
   ```
 
@@ -72,7 +72,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **List installed packages**:
 
-  ```shell
+  ```bash
   pip list
   ```
 
@@ -80,7 +80,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Show information about a package**:
 
-  ```shell
+  ```bash
   pip show package_name
   ```
 
@@ -88,7 +88,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Check package dependencies**:
 
-  ```shell
+  ```bash
   pip check
   ```
 
@@ -96,7 +96,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Freeze installed packages**:
 
-  ```shell
+  ```bash
   pip freeze > requirements.txt
   ```
 
@@ -104,7 +104,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 - **Install packages from a requirements file**:
 
-  ```shell
+  ```bash
   pip install -r requirements.txt
   ```
 
@@ -114,7 +114,7 @@ PIP provides a simple and straightforward interface for managing Python packages
 
 PIP works seamlessly with Python virtual environments, which are isolated environments that allow you to manage packages independently for different projects. To create a virtual environment, use the following command:
 
-```shell
+```bash
 python -m venv myenv
 ```
 
@@ -122,13 +122,13 @@ This creates a new virtual environment named `myenv`. To activate the virtual en
 
 - **On Linux and macOS**:
 
-  ```shell
+  ```bash
   source myenv/bin/activate
   ```
 
 - **On Windows**:
 
-  ```shell
+  ```bash
   myenv\Scripts\activate
   ```
 
@@ -136,7 +136,7 @@ Once activated, you can use PIP to install packages, and they will be isolated w
 
 To deactivate the virtual environment and return to your system's default Python environment, simply run the following command:
 
-```shell
+```bash
 deactivate
 ```
 

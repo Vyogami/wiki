@@ -10,13 +10,13 @@ Poetry is a dependency manager and build tool for Python. It is designed to simp
 
 To install Poetry, follow these steps:
 
-   ```shell
+   ```bash
    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
    ```
 
 ## Creating a New Project
 
-   ```shell
+   ```bash
    poetry new myproject
    ```
 
@@ -28,7 +28,7 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
 
 - **Add a dependency**:
 
-  ```shell
+  ```bash
   poetry add package_name
   ```
 
@@ -36,19 +36,19 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
 
 - **Add a dependency in development mode**:
   
-  ```shell
+  ```bash
   poetry add -D package_name
   ```
 
   > **Warning**: -D or -dev option is [deprecated], use the `--group dev` notation instead.
 
-  ```shell
+  ```bash
   poetry add --group dev package_name
   ```
 
 - **Remove a dependency**:
 
-  ```shell
+  ```bash
   poetry remove package_name
   ```
 
@@ -56,7 +56,7 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
 
 - **Update all dependencies**:
 
-  ```shell
+  ```bash
   poetry update
   ```
 
@@ -64,7 +64,7 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
 
 - **Install dependencies**:
 
-  ```shell
+  ```bash
   poetry install
   ```
 
@@ -72,7 +72,7 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
 
 - **Export dependencies to a requirements file**:
 
-  ```shell
+  ```bash
   poetry export -f requirements.txt --output requirements.txt
   ```
 
@@ -84,7 +84,7 @@ Poetry provides an integrated approach to manage Python environments for your pr
 
 - **Create a virtual environment**:
 
-  ```shell
+  ```bash
   poetry env use python3.9
   ```
 
@@ -92,7 +92,7 @@ Poetry provides an integrated approach to manage Python environments for your pr
 
 - **Activate the virtual environment**:
 
-  ```shell
+  ```bash
   poetry shell
   ```
 
@@ -100,7 +100,7 @@ Poetry provides an integrated approach to manage Python environments for your pr
 
 - **Deactivate the virtual environment**:
 
-  ```shell
+  ```bash
   exit
   ```
 
@@ -112,7 +112,7 @@ Poetry provides an integrated approach to manage Python environments for your pr
 
   For example:
 
-  ```shell
+  ```bash
   rm -rf ~/.cache/pypoetry/virtualenvs/scraper-2VoIUhnA-py3.5 
   ```
   
@@ -124,7 +124,7 @@ Poetry provides several commands to build and run your Python project. Here are 
 
 - **Build the project**:
 
-  ```shell
+  ```bash
   poetry build
   ```
 
@@ -132,7 +132,7 @@ Poetry provides several commands to build and run your Python project. Here are 
 
 - **Run the project**:
 
-  ```shell
+  ```bash
   poetry run python myscript.py
   ```
 

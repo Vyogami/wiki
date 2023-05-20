@@ -16,55 +16,55 @@ To install Conda, follow the instructions for your operating system from the off
 
 - **Create a new environment:**
 
-  ```shell
+  ```bash
   conda create --name myenv
   ```
 
   For specifying a specific Python version:
 
-  ```shell
+  ```shel
   conda create --name myenv python=3.8
   ```
 
 - **Activate an environment:**
 
-  ```shell
+  ```shel
   conda activate myenv
   ```
 
 - **Deactivate the current environment:**
 
-  ```shell
+  ```shel
   conda deactivate
   ```
 
 - **List all environments:**
 
-  ```shell
+  ```shel
   conda env list
   ```
 
 - **Remove an environment:**
 
-  ```shell
+  ```shel
   conda env remove --name myenv
   ```
 
 - **Create a requirements.txt file:**
 
-  ```shell
+  ```shel
   conda list --explicit > requirements.txt
   ```
 
 - **Create an environment from a requirements.txt file:**
 
-  ```shell
+  ```shel
   conda create --name myenv --file requirements.txt
   ```
 
 - **Export an environment to a YAML file:**
 
-  ```shell
+  ```shel
   conda env export --name myenv > environment.yml
   ```
 
@@ -74,37 +74,37 @@ To install Conda, follow the instructions for your operating system from the off
 
 - **List installed packages:**
 
-  ```shell
+  ```shel
   conda list
   ```
 
 - **Install a package:**
 
-  ```shell
+  ```shel
   conda install packagename
   ```
 
   For specifying a specific version:
 
-  ```shell
+  ```shel
   conda install packagename=1.2.3
   ```
 
 - **Update a package:**
 
-  ```shell
+  ```shel
   conda update packagename
   ```
 
 - **Remove a package:**
 
-  ```shell
+  ```shel
   conda remove packagename
   ```
 
 - **Search for a package:**
 
-  ```shell
+  ```shel
   conda search packagename
   ```
 
@@ -114,19 +114,19 @@ Conda uses channels to find and install packages. Here are some commands for man
 
 - **Add a channel:**
 
-  ```shell
+  ```shel
   conda config --add channels channelname
   ```
 
 - **Remove a channel:**
 
-  ```shell
+  ```shel
   conda config --remove channels channelname
   ```
 
 - **List configured channels:**
 
-  ```shell
+  ```shel
   conda config --get channels
   ```
 
@@ -136,7 +136,7 @@ Here are a few more commands that can be handy:
 
 - **Update Conda itself:**
 
-  ```shell
+  ```shel
   conda update conda
   ```
 
