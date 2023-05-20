@@ -2,6 +2,9 @@ name: Update Index
 
 on:
   push:
+    branches:
+      - main
+    
 
 jobs:
   run-script:

@@ -1,6 +1,9 @@
 name: Black formatting
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   format:
