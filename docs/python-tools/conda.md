@@ -2,10 +2,6 @@
 
 This document serves as a quick reference guide for using Conda, a package and environment management system. Conda is commonly used for managing Python packages, but it can also manage packages from other languages. It allows you to create isolated environments with different package versions and dependencies.
 
-## Table of Contents
-
-<!-- toc -->
-
 ## Installation
 
 To install Conda, follow the instructions for your operating system from the official Conda documentation:

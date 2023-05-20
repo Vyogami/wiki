@@ -2,10 +2,6 @@
 
 This document serves as a reference guide for using Docker, a popular platform for building, packaging, and distributing containerized applications. Docker allows you to create lightweight, isolated containers that encapsulate your application and its dependencies.
 
-## Table of Contents
-
-<!-- toc -->
-
 ## Installation
 
 To install Docker, follow the instructions for your operating system from the official Docker documentation:

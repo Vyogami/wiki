@@ -2,10 +2,6 @@
 
 Poetry is a dependency manager and build tool for Python. It is designed to simplify and streamline the process of managing and installing packages for Python projects.
 
-## Table of Contents
-
-<!-- toc -->
-
 ## Installation
 
 To install Poetry, follow these steps:

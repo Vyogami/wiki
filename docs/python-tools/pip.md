@@ -2,10 +2,6 @@
 
 PIP is the package installer for Python. It is a command-line tool that allows you to easily install, upgrade, and manage Python packages and their dependencies.
 
-## Table of Contents
-
-<!-- toc -->
-
 ## Installation
 
 PIP comes pre-installed with Python versions 3.4 and above. If you have an older version of Python or want to upgrade to the latest version of PIP, you can use the following command:

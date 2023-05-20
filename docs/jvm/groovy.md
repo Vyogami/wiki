@@ -2,10 +2,6 @@
 
 Groovy is an object-oriented programming language that is designed to enhance and extend the Java programming language. It is dynamic, expressive, and offers numerous features and syntax shortcuts that make it easier to write concise and readable code. Groovy leverages the Java Virtual Machine (JVM) and seamlessly integrates with existing Java libraries and frameworks.
 
-## Table of Contents
-
-<!-- toc -->
-
 ## Key features
 
 1. **Dynamic Typing**: Groovy supports dynamic typing, allowing variables to be declared without specifying their types explicitly. This provides flexibility and reduces the amount of boilerplate code required.
