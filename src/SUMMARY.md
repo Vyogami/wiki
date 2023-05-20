@@ -18,4 +18,3 @@
 
 - [JVM Languages]()
   - [Groovy](./jvm/groovy.md)
-  
