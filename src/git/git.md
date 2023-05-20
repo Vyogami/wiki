@@ -16,13 +16,13 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Initialize a new repository:**
 
-  ```shell
+  ```bash
   git init
   ```
 
 - **Clone a repository:**
 
-  ```shell
+  ```bash
   git clone <repository_url>
   ```
 
@@ -30,7 +30,7 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Set user information:**
 
-  ```shell
+  ```bash
   git config --global user.name "Your Name"
   git config --global user.email "yourname@example.com"
   ```
@@ -39,31 +39,31 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Create a new branch:**
 
-  ```shell
+  ```bash
   git branch <branch_name>
   ```
 
 - **Switch to a branch:**
 
-  ```shell
+  ```bash
   git checkout <branch_name>
   ```
 
 - **Create and switch to a new branch:**
 
-  ```shell
+  ```bash
   git checkout -b <branch_name>
   ```
 
 - **List branches:**
 
-  ```shell
+  ```bash
   git branch
   ```
 
 - **Delete a branch:**
 
-  ```shell
+  ```bash
   git branch -d <branch_name>
   ```
 
@@ -71,37 +71,37 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **View changes made to files:**
 
-  ```shell
+  ```bash
   git status
   ```
 
 - **Stage changes:**
 
-  ```shell
+  ```bash
   git add <file_name>
   ```
 
 - **Stage all changes:**
 
-  ```shell
+  ```bash
   git add -A
   ```
 
 - **Stage all changes made in the current working directory:**
 
-  ```shell
+  ```bash
   git add .
   ```
 
 - **Commit changes:**
 
-  ```shell
+  ```bash
   git commit -m "Commit message"
   ```
 
 - **Push changes to a remote repository:**
 
-  ```shell
+  ```bash
   git push origin <branch_name>
   ```
 
@@ -109,26 +109,26 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Update local repository with remote changes:**
 
-  ```shell
+  ```bash
   git pull
   ```
 
 - **Fetch changes from a remote repository:**
 
-  ```shell
+  ```bash
   git fetch
   ```
   
   >  `fetch` retrieves the changes from a remote repository without automatically merging them, while `pull` fetches the changes and automatically merges them into the current branch
 - **Merge changes from a branch:**
 
-  ```shell
+  ```bash
   git merge <branch_name>
   ```
 
 - **Rebase changes from a branch:**
 
-  ```shell
+  ```bash
   git rebase <branch_name>
   ```
 
@@ -136,19 +136,19 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **View commit history:**
 
-  ```shell
+  ```bash
   git log
   ```
 
 - **View commit details and changes:**
 
-  ```shell
+  ```bash
   git show <commit_hash>
   ```
 
 - **View the reflog:**
 
-  ```shell
+  ```bash
   git reflog
   ```
 
@@ -172,7 +172,7 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Restore to a previous state using reflog:**
 
-  ```shell
+  ```bash
   git reset --hard HEAD@{n}
   ```
 
@@ -180,7 +180,7 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Clean up the reflog:**
 
-  ```shell
+  ```bash
   git reflog expire --expire=30.days
   ```
 
@@ -193,7 +193,7 @@ To install Git, follow the instructions for your operating system from the offic
   1. Identify the commit hash or reference from the reflog history.
   2. Use the `git cherry-pick` command to apply the changes from the lost commit to the current branch:
 
-     ```shell
+     ```bash
      git cherry-pick <commit_hash>
      ```
 
@@ -205,19 +205,19 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Add a remote repository:**
 
-  ```shell
+  ```bash
   git remote add <remote_name> <repository_url>
   ```
 
 - **List remote repositories:**
 
-  ```shell
+  ```bash
   git remote -v
   ```
 
 - **Remove a remote repository:**
 
-  ```shell
+  ```bash
   git remote remove <remote_name>
   ```
 
@@ -225,19 +225,19 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Discard local changes to a file:**
 
-  ```shell
+  ```bash
   git checkout -- <file_name>
   ```
 
 - **Undo the last commit (keep changes locally):**
 
-  ```shell
+  ```bash
   git reset HEAD~1
   ```
 
 - **Delete untracked files:**
 
-  ```shell
+  ```bash
   git clean -f
   ```
 
@@ -245,19 +245,19 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Stash changes for later use:**
 
-  ```shell
+  ```bash
   git stash save "Message"
   ```
 
 - **Apply the most recent stash:**
 
-  ```shell
+  ```bash
   git stash apply
   ```
 
 - **List all stashes:**
 
-  ```shell
+  ```bash
   git stash list
   ```
 
@@ -265,13 +265,13 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **Cherry-pick a commit from another branch:**
 
-  ```shell
+  ```bash
   git cherry-pick <commit_hash>
   ```
 
 - **Merge changes with a specific strategy:**
 
-  ```shell
+  ```bash
   git merge --strategy=<strategy> <branch_name>
   ```
 
@@ -279,37 +279,37 @@ To install Git, follow the instructions for your operating system from the offic
 
 - **View branches and their commit history graphically:**
 
-  ```shell
+  ```bash
   git log --graph --oneline --decorate --all
   ```
 
 - **View the difference between branches or commits:**
 
-  ```shell
+  ```bash
   git diff <branch_or_commit>..<branch_or_commit>
   ```
 
 - **Show changes introduced by a commit:**
 
-  ```shell
+  ```bash
   git show <commit_hash>
   ```
 
 - **List all tags:**
 
-  ```shell
+  ```bash
   git tag
   ```
 
 - **Create a tag for a specific commit:**
 
-  ```shell
+  ```bash
   git tag <tag_name> <commit_hash>
   ```
 
 - **Delete a tag:**
 
-  ```shell
+  ```bash
   git tag -d <tag_name>
   ```
 

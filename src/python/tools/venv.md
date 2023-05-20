@@ -16,7 +16,7 @@ To create a new virtual environment, follow these steps:
 
 3. Run the following command:
 
-   ```shell
+   ```bash
    python -m venv myenv
    ```
 
@@ -28,13 +28,13 @@ To activate the virtual environment, depending on your operating system, use one
 
 - **On macOS and Linux**:
 
-  ```shell
+  ```bash
   source myenv/bin/activate
   ```
 
 - **On Windows**:
 
-  ```shell
+  ```bash
   myenv\Scripts\activate
   ```
 
@@ -44,7 +44,7 @@ Once activated, your terminal prompt will change, indicating that you are now wo
 
 To deactivate the virtual environment, depending on your operating system, use one of the following commands:
 
-  ```shell
+  ```bash
   deactivate
   ```
 
@@ -56,13 +56,13 @@ After activating the virtual environment you can use `pip` to manage packages, H
 
 - **Install a package**:
 
-  ```shell
+  ```bash
   pip install package_name
   ```
 
 - **Upgrade a package**:
 
-  ```shell
+  ```bash
   pip install --upgrade package_name
   ```
 
@@ -70,19 +70,19 @@ After activating the virtual environment you can use `pip` to manage packages, H
 
 - **Uninstall a package**:
 
-  ```shell
+  ```bash
   pip uninstall package_name
   ```
 
 - **List installed packages**:
 
-  ```shell
+  ```bash
   pip list
   ```
 
 - **Export the environment to a requirements file**:
 
-  ```shell
+  ```bash
   pip freeze > requirements.txt
   ```
 
@@ -90,12 +90,12 @@ After activating the virtual environment you can use `pip` to manage packages, H
 
 - **Check the Python interpreter version**:
 
-  ```shell
+  ```bash
   python --version
   ```
 
 - **Check the path to the Python interpreter**:
 
-  ```shell
+  ```bash
   which python
   ```

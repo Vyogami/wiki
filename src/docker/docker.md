@@ -20,19 +20,19 @@ Here are some of the most commonly used commands in Docker:
 
 - **List running containers:**
 
-    ```shell
+    ```bash
     docker ps
     ```
 
 - **List all containers (including stopped ones):**
 
-    ```shell
+    ```bash
     docker ps -a
     ```
 
 - **Create a container from an image:**
 
-    ```shell
+    ```bash
     docker create --name mycontainer image:tag
     ```
 
@@ -42,25 +42,25 @@ Here are some of the most commonly used commands in Docker:
 
 - **Start a container:**
 
-    ```shell
+    ```bash
     docker start mycontainer
     ```
 
 - **Stop a running container:**
 
-    ```shell
+    ```bash
     docker stop mycontainer
     ```
 
 - **Restart a container:**
 
-    ```shell
+    ```bash
     docker restart mycontainer
     ```
 
 - **Remove a container:**
 
-    ```shell
+    ```bash
     docker rm mycontainer
     ```
 
@@ -68,7 +68,7 @@ Here are some of the most commonly used commands in Docker:
 
 To map ports when running a container, use the `-p` or `--publish` flag followed by the host port and container port.
 
-```shell
+```bash
 docker run -p <host_port>:<container_port> image:tag
 ```
 
@@ -76,7 +76,7 @@ docker run -p <host_port>:<container_port> image:tag
 
 To map port 8080 from the container to port 8888 on the host system, you can use the following command:
 
-```shell
+```bash
 docker run -p 8888:8080 image:tag
 ```
 
@@ -84,19 +84,19 @@ docker run -p 8888:8080 image:tag
 
 - **List available images:**
 
-    ```shell
+    ```bash
     docker image ls
     ```
 
 - **Pull an image from a registry:**
 
-    ```shell
+    ```bash
     docker pull image:tag
     ```
 
 - **Remove an image:**
 
-    ```shell
+    ```bash
     docker image rm image:tag
     ```
 
@@ -104,20 +104,20 @@ docker run -p 8888:8080 image:tag
 
 - **Remove unused images:**
   
-  ```shell
+  ```bash
   docker image prune
   ```
 
 - **Interactive tty:**
   To run image in interactive tty use the following command
 
-  ```shell
+  ```bash
   docker run -it image:tag
   ```
 
 - **Build an image from a Dockerfile:**
 
-    ```shell
+    ```bash
     docker build -t image:tag .
     ```
 
@@ -176,13 +176,13 @@ docker run -p 8888:8080 image:tag
 
 - **Create a named volume:**
 
-    ```shell
+    ```bash
     docker volume create myvolume
     ```
 
 - **Mount a volume to a container:**
 
-    ```shell
+    ```bash
     docker run -v myvolume:/path/in/container image:tag
     ```
 
@@ -190,13 +190,13 @@ docker run -p 8888:8080 image:tag
 
 - **List all volumes:**
 
-    ```shell
+    ```bash
     docker volume ls
     ```
 
 - **Remove a volume:**
 
-    ```shell
+    ```bash
     docker volume rm myvolume
     ```
 
@@ -204,19 +204,19 @@ docker run -p 8888:8080 image:tag
 
 - **List all networks:**
 
-    ```shell
+    ```bash
     docker network ls
     ```
 
 - **Create a network:**
 
-    ```shell
+    ```bash
     docker network create mynetwork
     ```
 
 - **Run a container on a specific network:**
 
-    ```shell
+    ```bash
     docker run --network=mynetwork image:tag
     ```
 
@@ -224,7 +224,7 @@ docker run -p 8888:8080 image:tag
 
 - **Remove a network:**
 
-    ```shell
+    ```bash
     docker network rm mynetwork
     ```
 
@@ -234,19 +234,19 @@ Here are a few more commands that can be helpful:
 
 - **View logs of a running container:**
 
-    ```shell
+    ```bash
     docker logs mycontainer
     ```
 
 - **Execute a command inside a running container:**
 
-    ```shell
+    ```bash
     docker exec mycontainer command
     ```
 
 - **Inspect details of a container:**
 
-    ```shell
+    ```bash
     docker inspect mycontainer
     ```
 
