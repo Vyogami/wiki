@@ -1,111 +1,22 @@
-# Vyomani
+<p align="center"><img src="./static/img/vyogami.png" width="256"></img></p>
 
-Welcome to Vyomani, the secret vault of knowledge! 📚✨
+<h1 align="center">Vyogami</h1>
+<p align="center"><i>/ˈvʲoɡəmi/</i></p>
 
-Within these digital pages, you'll find a wondrous collection of my notes and self-documentation, covering everything from development tools and programming languages to tales of wild adventures, university course notes, and even the occasional spark of genius that struck me during a midnight snack break! 🍕🚀
+Welcome to Vyogami, a digital garden that houses a vast collection of my notes, self-documentation, and intellectual musings. `Vyogami` is derived from the Sanskrit word `Vyomagami,` meaning "something that passes in the sky," this digital realm encompasses a variety of subjects, ranging from development tools and programming languages to occasional flashes of genius that strike me during midnight snack breaks! 🍕🚀
 
-Please remember, my fellow readers, that these notes are not for the faint of heart. They are imbued with secret reaping spells, unexpected bugs, and the occasional cryptic comment left by a long-lost programmer from a bygone era.
+But brace yourself, my intrepid readers, for the contents within are not for the faint of heart. They possess blending potent incantations with unforeseen bugs, and even the cryptic annotations of long-lost CodeReaper from bygone eras.
 
-So grab your favorite caffeinated beverage, put on your lucky coding socks, and embark on this whimsical journey through my mind. But remember, dear friend, if you dare to wield this knowledge, do so at your own peril! Muahaha! 😈
+## Docusaurus Documentation
 
-<p align="right">- Code Reaper<p>
+Vyogami is built using Docusaurus, a feature-rich documentation generator. With Docusaurus, you can easily create beautiful and interactive documentation websites like this one. To learn more about Docusaurus and how to use it, refer to the [official documentation](https://docusaurus.io/docs/)
 
-## Index
+## Contributing
 
-<details>
-  <summary> <a href="./devdocs/conda/conda.md"> Conda </a> </summary>
+If you happen to stumble upon a mistake, especially if I've said something plain wrong, don't hesitate to contribute! You can fork [this repository](https://github.com/legitShivam/vyogami) and make a pull request with your corrections. Alternatively, you can [open an issue](https://github.com/legitShivam/vyogami/issues/new) to point out errors, ask questions, or make suggestions. I welcome any constructive feedback or suggestions to improve the content. Additionally, you can make use of the GitHub [file search](https://github.com/legitShivam/vyogami/find/main) and [content search](https://github.com/legitShivam/vyogami/search?q=karabiner&unscoped_q=karabiner) features, which are quite nifty.
 
-- Installation
-- Environment Management
-- Package Management
-- Managing Channels
-- Miscellaneous Commands
-- Further Reading
+Your contributions and feedback will help enhance the knowledge contained within Vyogami and make it an even more valuable resource for everyone.
 
-</details>
+## License
 
-<details>
-  <summary> <a href="./devdocs/git/git.md"> Git </a> </summary>
-
-- Installation
-- Repository Initialization
-- Configuration
-- Branches
-- Committing Changes
-- Updating and Synchronizing
-- History and Logs
-- Remote Repository
-- Undoing Changes
-- Stash
-- Collaboration and Advanced Operations
-- Further Reading
-
-</details>
-
-<details>
-  <summary> <a href="./devdocs/python/venv.md"> Venv </a> </summary>
-
-- VENV (Python Virtual Environments)
-- Creation
-- Activation
-- Deactivation
-- Usage
-
-</details>
-
-<details>
-  <summary> <a href="./devdocs/python/pip.md"> Pip </a> </summary>
-
-- PIP (Python Package Installer)
-- Installation
-- Usage
-- Virtual Environments
-- Further Reading
-
-</details>
-
-<details>
-  <summary> <a href="./devdocs/python/poetry.md"> Poetry </a> </summary>
-
-- Installation
-- Creating a New Project
-- Managing Dependencies
-- Environment Management
-- Building and Running
-- YouTube Videos
-
-</details>
-
-<details>
-  <summary> <a href="./devdocs/groovy/groovy.md"> Groovy </a> </summary>
-
-- Key features
-- def Keyword
-- Parenthesis Usage
-- Strings
-- Closures
-- Lists
-- Maps
-- File I/O
-- Console I/O
-- Math
-- Random
-- Executing Groovy scripts
-
-</details>
-
-<details>
-  <summary> <a href="./devdocs/docker/docker.md"> Docker </a> </summary>
-
-- Installation
-- Basic Commands
-- Container Management
-- Port Mapping
-- Example
-- Image Management
-- Volume Management
-- Network Management
-- Miscellaneous Commands
-- Further Reading
-
-</details>
+This repository is licensed under the [GNU AGPLv3 License](LICENSE). Feel free to explore, learn, and adapt the knowledge within while respecting the terms of the license.
