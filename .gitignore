@@ -2,6 +2,8 @@
 .vscode/
 tempCodeRunnerFile*
 
+# mdbook redered files
+book/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

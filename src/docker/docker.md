@@ -4,18 +4,7 @@ This document serves as a reference guide for using Docker, a popular platform f
 
 ## Table of Contents
 
-- [Docker](#docker)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Basic Commands](#basic-commands)
-  - [Container Management](#container-management)
-  - [Port Mapping](#port-mapping)
-    - [Example](#example)
-  - [Image Management](#image-management)
-  - [Volume Management](#volume-management)
-  - [Network Management](#network-management)
-  - [Miscellaneous Commands](#miscellaneous-commands)
-  - [Further Reading](#further-reading)
+<!-- toc -->
 
 ## Installation
 
