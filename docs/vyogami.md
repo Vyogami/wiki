@@ -1,9 +1,8 @@
 ---
 slug: /
 id: vyogami
+title: ''
 ---
-
-# 
 
 <p align="center">
 <img src="img/vyogami.png" width="200"></img>
