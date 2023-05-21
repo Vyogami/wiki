@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 // @Shivam Shandilya's suggested themes: palenight, vsDark, dracula(doesn't look good with global theme)
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
@@ -21,7 +18,6 @@ const config = {
   baseUrl: "/vyogami/",
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "legitShivam", // Usually your GitHub org/user name.
   projectName: "vyogami", // Usually your repo name.
 
