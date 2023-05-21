@@ -1,6 +1,6 @@
 ---
-slug: first-blog-post
-title: "First Blog Post: Setting Up Vyogami!"
+slug: setting-up-vyogami
+title: "Setting Up Vyogami!"
 authors: legitShivam
 tags: [docusaurus, vyogami, digtal-garden]
 ---
