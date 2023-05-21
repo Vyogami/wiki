@@ -1,6 +1,6 @@
 ---
-slug: setting-up-vyogami
-title: "Setting Up Vyogami!"
+slug: setting-up-my-digital-garden
+title: "Setting Up My Digital Garden!"
 authors: legitShivam
 tags: [docusaurus, vyogami, digtal-garden]
 ---
