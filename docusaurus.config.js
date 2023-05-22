@@ -97,6 +97,11 @@ const config = {
         },
         items: [
           {
+            to: "/",
+            label: "Wiki",
+            position: "left"
+          },
+          {
             to: "/blog",
             label: "Blog",
             position: "left"
