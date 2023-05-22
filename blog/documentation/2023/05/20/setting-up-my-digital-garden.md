@@ -6,7 +6,9 @@ tags: [docusaurus, vyogami, digtal-garden]
 ---
 
 <p align="center">
-<img src="img/vyogami.png" width="200"></img>
+
+![vyogami](./assets/vyogami-200x200.png)
+
 <h1>Vyogami</h1>
 /ˈvʲoɡəmi/
 </p>
