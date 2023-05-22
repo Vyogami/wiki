@@ -1,7 +1,8 @@
 <p align="center"><img src="./static/img/vyogami.png" width="256"></img></p>
 
 <h1 align="center">Vyogami</h1>
-<p align="center"><i>/ˈvʲoɡəmi/</i></p>
+</p>
+<p align="center"><i>/व्योगामि/ /vjoːɡaːmi/</i></p>
 
 Welcome to Vyogami, a digital garden that houses a vast collection of my notes, self-documentation, and intellectual musings. `Vyogami` is derived from the Sanskrit word `Vyomagami,` meaning "something that passes in the sky," this digital realm encompasses a variety of subjects, ranging from development tools and programming languages to occasional flashes of genius that strike me during midnight snack breaks! 🍕🚀
 

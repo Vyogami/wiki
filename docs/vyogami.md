@@ -7,7 +7,7 @@ title: ''
 <p align="center">
 <img src="img/vyogami.png" width="200"></img>
 <h1>Vyogami</h1>
-/ˈvʲoɡəmi/
+<i>/व्योगामि/ /vjoːɡaːmi/</i>
 </p>
 
 Within these digital pages, you'll find a wondrous collection of my notes and self-documentation, covering everything from development tools and programming languages to tales of wild adventures, university course notes, and even the occasional spark of genius that struck me during a midnight snack break! 🍕🚀
