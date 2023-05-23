@@ -7,19 +7,19 @@ const prismLanguages = ["powershell", "groovy", "java", "docker", "yaml", "toml"
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Vyogami",
+  title: "Ripe",
   tagline: "Secret Vault of Knowledge",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://legitshivam.github.io",
+  url: "https://vyogami.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/vyogami/",
+  baseUrl: "/ripe/",
 
   // GitHub pages deployment config.
-  organizationName: "legitShivam", // Usually your GitHub org/user name.
-  projectName: "vyogami", // Usually your repo name.
+  organizationName: "vyogami", // Usually your GitHub org/user name.
+  projectName: "ripe", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -59,14 +59,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/legitShivam/vyogami/tree/main/",
+            "https://github.com/vyogami/ripe/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/legitShivam/vyogami/tree/main/",
+            "https://github.com/vyogami/ripe/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -90,10 +90,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: "Vyogami",
+        title: "Ripe",
         logo: {
-          alt: "vyogami logo",
-          src: "img/vyogami.png",
+          alt: "ripe logo",
+          src: "img/ripe.png",
         },
         items: [
           {
@@ -107,12 +107,12 @@ const config = {
             position: "left"
           },
           {
-            href: "https://twitter.com/legitShivam",
+            href: "https://twitter.com/vyogami",
             position: "right",
             label: "🐦",
           },
           {
-            href: 'https://github.com/legitShivam/vyogami',
+            href: 'https://github.com/vyogami/ripe',
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",

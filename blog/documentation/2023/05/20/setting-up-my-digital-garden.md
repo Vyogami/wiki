@@ -2,18 +2,17 @@
 slug: setting-up-my-digital-garden
 title: "Setting Up My Digital Garden!"
 authors: legitShivam
-tags: [docusaurus, vyogami, digtal-garden]
+tags: [docusaurus, ripe, digtal-garden]
 ---
 
 <p align="center">
 
-![vyogami](./assets/vyogami-200x200.png)
+![ripe](./assets/ripe-200x200.png)
 
-<h1>Vyogami</h1>
-<i>/व्योगामि/ /vjoːɡaːmi/</i>
+<h1>Ripe</h1>
 </p>
 
-Welcome to my first blog post on Vyogami, my very own digital garden! In this post, I will walk you through the process of setting up Vyogami using Docusaurus, a powerful and feature-rich documentation generator. Unlike my previous attempt with mdbook, Docusaurus offers a wide range of benefits, including enhanced code block syntax highlighting and support for blocks.
+Welcome to my first blog post on Ripe, my very own digital garden! In this post, I will walk you through the process of setting up Ripe using Docusaurus, a powerful and feature-rich documentation generator. Unlike my previous attempt with mdbook, Docusaurus offers a wide range of benefits, including enhanced code block syntax highlighting and support for blocks.
 
 ## What is a Digital Garden?
 
@@ -33,9 +32,9 @@ After careful consideration and research, I found that Docusaurus could provide 
 - Built-in search functionality for easy navigation and discovery
 - Support for Markdown and other content formats
 
-## Setting up Vyogami with Docusaurus
+## Setting up Ripe with Docusaurus
 
-Now let's get into the nitty-gritty of setting up Vyogami using Docusaurus. Follow these steps to create your own digital garden:
+Now let's get into the nitty-gritty of setting up Ripe using Docusaurus. Follow these steps to create your own digital garden:
 
 ### Step 1: Install Docusaurus
 
@@ -47,17 +46,17 @@ npm install --global docusaurus-init
 
 ### Step 2: Create a New Docusaurus Project
 
-Once Docusaurus is installed, navigate to the desired directory where you want to create your digital garden. Run the following command to create a new Docusaurus project named "vyogami":
+Once Docusaurus is installed, navigate to the desired directory where you want to create your digital garden. Run the following command to create a new Docusaurus project named "ripe":
 
 ```bash
-npx docusaurus-init vyogami classic
+npx docusaurus-init ripe classic
 ```
 
-This command will create a new directory named "vyogami" with the basic Docusaurus project structure.
+This command will create a new directory named "ripe" with the basic Docusaurus project structure.
 
 ### Step 3: Customize and Configure
 
-Next, navigate into the "vyogami" directory and open the `docusaurus.config.js` file. This file contains the configuration settings for your digital garden. Customize the site title, description, and other options according to your preferences.
+Next, navigate into the "ripe" directory and open the `docusaurus.config.js` file. This file contains the configuration settings for your digital garden. Customize the site title, description, and other options according to your preferences.
 
 You can also explore the theme options and customize the appearance of your digital garden by modifying the CSS files located in the `src/css` directory.
 
