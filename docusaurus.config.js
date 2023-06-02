@@ -3,7 +3,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 // add more languages here for syntax highlighting, refer to prism-react-renderer for more info
-const prismLanguages = ["powershell", "groovy", "java", "docker", "yaml", "toml"];
+const prismLanguages = ["powershell", "groovy", "java", "docker", "yaml", "toml", "matlab", "octave"];
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
