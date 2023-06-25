@@ -9,10 +9,8 @@ title: ''
 <h1>Ripe</h1>
 </p>
 
-Within these digital pages, you'll find a wondrous collection of my notes and self-documentation, covering everything from development tools and programming languages to tales of wild adventures, university course notes, and even the occasional spark of genius that struck me during a midnight snack break! 🍕🚀
+Welcome to Ripe, a digital garden that houses a vast collection of my notes, self-documentation, and intellectual musings. This digital realm encompasses a variety of subjects, ranging from development tools and programming languages to occasional flashes of genius that strike me during midnight snack breaks!
 
-Please remember, my fellow readers, that these notes are not for the faint of heart. They are imbued with secret reaping spells, unexpected bugs, and the occasional cryptic comment left by a long-lost programmer from a bygone era.
-
-So grab your favorite caffeinated beverage, put on your lucky coding socks, and embark on this whimsical journey through my mind. But remember, dear friend, if you dare to wield this knowledge, do so at your own peril! Muahaha! 😈
+Ripe is built using Docusaurus, a feature-rich documentation generator. With Docusaurus, you can easily create beautiful and interactive documentation websites like this one. To learn more about Docusaurus and how to use it, refer to the official documentation
 
 <p align="right">- CodeReaper</p>
