@@ -41,7 +41,7 @@ const config = {
         indexDocs: true,
         indexBlog: true,
         indexPages: true,
-        highlightSearchTermsOnTargetPage: true,
+        highlightSearchTermsOnTargetPage: false,
         searchBarShortcutHint: false,
         explicitSearchResultPath: true,
       },
