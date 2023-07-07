@@ -13,4 +13,4 @@ Welcome to Ripe, a digital garden that houses a vast collection of my notes, sel
 
 Ripe is built using Docusaurus, a feature-rich documentation generator. With Docusaurus, you can easily create beautiful and interactive documentation websites like this one. To learn more about Docusaurus and how to use it, refer to the official documentation
 
-<p align="right">- CodeReaper</p>
+<p align="right">- Shivam Shandilya</p>
