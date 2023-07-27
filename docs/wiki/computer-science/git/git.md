@@ -172,7 +172,15 @@ To install Git, follow the instructions for your operating system from the offic
   git reset --hard HEAD@{n}
   ```
 
-  Replace `n` with the desired position in the reflog history.
+  > Replace `n` with the desired position in the reflog history.
+
+  The `git reset` command is a powerful tool in Git that allows you to undo changes and move the repository back to a previous commit. It operates on "The Three Trees of Git": the Commit Tree (HEAD), the Staging Index, and the Working Directory.
+
+  There are three primary forms of invocation for `git reset`, each corresponding to different command line arguments: `--soft`, `--mixed`, and `--hard`. These arguments determine how the command affects the three trees.
+
+  - `--soft`: This form of `git reset` moves the branch pointer (HEAD) to the specified commit, but leaves the changes in the Staging Index and Working Directory intact. It essentially undoes the last commit without losing the changes made.
+  - `--mixed`: This is the default form of `git reset` if no argument is provided. It moves the branch pointer to the specified commit and updates the Staging Index to match that commit. However, it does not modify the Working Directory, so the changes made after the specified commit are still present but not staged[2].
+  - `--hard`: This form of `git reset` moves the branch pointer to the specified commit, updates the Staging Index to match that commit, and also modifies the Working Directory to reflect the state of the specified commit. It effectively discards all changes made after the specified commit.
 
 - **Clean up the reflog:**
 
