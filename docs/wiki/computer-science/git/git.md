@@ -242,8 +242,10 @@ To install Git, follow the instructions for your operating system from the offic
 - **Delete untracked files:**
 
   ```bash
-  git clean -f
+  git clean -df
   ```
+
+  > Note: here -d remove all the untracked directories -f all the untracked files.
 
 ## Stash
 
