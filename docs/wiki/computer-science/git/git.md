@@ -63,6 +63,13 @@ To install Git, follow the instructions for your operating system from the offic
   git branch -d <branch_name>
   ```
 
+- **Rename a branch:**
+
+  ```bash
+  git branch -m <new_branch_name>
+  ```
+  > Here '-m' stands for 'move'
+
 ## Committing Changes
 
 - **View changes made to files:**
