@@ -1,7 +1,7 @@
 ---
 slug: setting-up-my-digital-garden
 title: "Setting Up My Digital Garden!"
-authors: legitShivam
+authors: vyogami
 tags: [docusaurus, ripe, digtal-garden]
 ---
 
