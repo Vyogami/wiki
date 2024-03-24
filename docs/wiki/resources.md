@@ -72,4 +72,7 @@
 
 ### Reference: https://www.reddit.com/r/golang/comments/mfqypn/go_youtube_channels/
 
+## Python
+
+- Project template: https://www.reddit.com/r/Python/comments/vnh8od/here_are_5_python_project_starter_templates_after/
 
