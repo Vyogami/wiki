@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from './HomepageHero.module.css';
 import { Album, Github } from 'lucide-react';
+import { Spotlight } from './spotlight';
 
 export function HomepageHero() {
   return (
@@ -9,6 +10,7 @@ export function HomepageHero() {
       <div className={styles.tiles}></div>
       <div className={styles.content}>
         <div className={styles.avatarContainer}>
+      <Spotlight className="-top-40 left-0 md:left-60 md:-top-20"/>
           <center>
           <img src='/pfp.jpeg' className={styles.avatar}/>
           </center>
