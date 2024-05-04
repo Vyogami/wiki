@@ -76,3 +76,8 @@
 
 - Project template: https://www.reddit.com/r/Python/comments/vnh8od/here_are_5_python_project_starter_templates_after/
 
+
+## Git
+
+- https://blog.billyc.io/how-to-copy-one-or-more-files-from-one-git-repo-to-another-and-keep-the-git-history/
+
