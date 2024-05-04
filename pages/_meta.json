@@ -1,0 +1,21 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Shivam Shandilya",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "wiki": {
+    "type": "page",
+    "title": "Personal Wiki"
+  },
+  "og-image": {
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  }
+}

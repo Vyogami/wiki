@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg{
+  display: block;
+  width: 24px;
+  color: black;
+  border-radius: 100%;
+  margin-top: 0.2rem;
+  filter: grayscale(100%);
+
+  :global(.dark) & {
+    color: white;
+  }
+}
+
+.separator {
+  flex-shrink: 0;
+  width: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+}
