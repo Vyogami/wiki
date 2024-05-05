@@ -4,7 +4,7 @@ import { Rocket } from './Rocket';
 export function Education() {
   return (
     <div className={styles.root}>
-      <ul className={styles.benefits}>
+      <ul className={styles.education}>
         <li className={styles.text}>
           I'm a junior year 
           <br />
