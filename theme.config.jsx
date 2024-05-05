@@ -37,6 +37,7 @@ export default {
   },
   sidebar: {
     defaultMenuCollapseLevel: 1,
+    toggleButton: true,
   },
   gitTimestamp: null,
   navbar: {
@@ -54,4 +55,5 @@ export default {
   search: {
     placeholder: "Search Personal Wiki",
   },
+  darkMode : false,
 };
