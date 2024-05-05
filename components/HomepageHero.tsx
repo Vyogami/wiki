@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './HomepageHero.module.css';
 import { Album, Github } from 'lucide-react';
-import { Spotlight } from './spotlight';
+import { Spotlight } from './Spotlight';
 
 export function HomepageHero() {
   return (
