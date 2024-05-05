@@ -17,7 +17,7 @@ export function HomepageHero() {
         </div>
         <h1 className={styles.headline}>Shivam Shandilya</h1>
         <p className={styles.subtitle}>
-          Hi! 👋 I'm a Devloper, Data analyst and an Engineer.
+          Hi! 👋 I'm a Developer, Data analyst and an Engineer.
         </p>
         <div className={styles.actions}>
           <Link className={styles.cta} href="/wiki/resources">
