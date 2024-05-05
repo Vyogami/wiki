@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function useViewportEnter() {
   const [el, setEl] = React.useState<HTMLElement | null>(null);
@@ -14,12 +14,12 @@ export function useViewportEnter() {
     }
 
     updateEntered();
-    window.addEventListener('scroll', updateEntered);
-    window.addEventListener('resize', updateEntered);
+    window.addEventListener("scroll", updateEntered);
+    window.addEventListener("resize", updateEntered);
 
     return () => {
-      window.removeEventListener('scroll', updateEntered);
-      window.removeEventListener('resize', updateEntered);
+      window.removeEventListener("scroll", updateEntered);
+      window.removeEventListener("resize", updateEntered);
     };
   }, [el, entered]);
 

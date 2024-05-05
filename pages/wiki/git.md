@@ -68,6 +68,7 @@ To install Git, follow the instructions for your operating system from the offic
   ```bash
   git branch -m <new_branch_name>
   ```
+
   > Here '-m' stands for 'move'
 
 ## Committing Changes
@@ -121,8 +122,9 @@ To install Git, follow the instructions for your operating system from the offic
   ```bash
   git fetch
   ```
-  
-  >  `fetch` retrieves the changes from a remote repository without automatically merging them, while `pull` fetches the changes and automatically merges them into the current branch
+
+  > `fetch` retrieves the changes from a remote repository without automatically merging them, while `pull` fetches the changes and automatically merges them into the current branch
+
 - **Merge changes from a branch:**
 
   ```bash

@@ -40,9 +40,9 @@ Once activated, your terminal prompt will change, indicating that you are now wo
 
 To deactivate the virtual environment, depending on your operating system, use one of the following commands:
 
-  ```bash
-  deactivate
-  ```
+```bash
+deactivate
+```
 
 This command deactivates the current virtual environment and returns you to your system's default Python environment.
 

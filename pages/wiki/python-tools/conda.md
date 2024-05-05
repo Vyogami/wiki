@@ -64,7 +64,7 @@ To install Conda, follow the instructions for your operating system from the off
   conda env export --name myenv > environment.yml
   ```
 
-    > The resulting YAML file can be used to recreate the environment.
+  > The resulting YAML file can be used to recreate the environment.
 
 ## Package Management
 

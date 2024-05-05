@@ -1,5 +1,5 @@
-import { useViewportEnter } from '../utils/useViewportEnter';
-import styles from './Rocket.module.css';
+import { useViewportEnter } from "../utils/useViewportEnter";
+import styles from "./Rocket.module.css";
 
 export function Rocket() {
   const [ref, entered] = useViewportEnter();

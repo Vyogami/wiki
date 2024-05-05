@@ -7,19 +7,18 @@
   "resources": "",
   "jargons": "Jargons",
 
-
   "-- Computer Science": {
     "type": "separator",
     "title": "Computer Science"
   },
 
   "docker": "",
-	"dsa": "DSA",
-	"git": "",
-	"groovy": "",
-	"jvm-tools": "JVM Tools",
-	"matlab": "Matlab",
-	"oss-programs": "OSS Programs",
-	"python-tools": "Python Tools",
-	"qemu": "QEMU"
+  "dsa": "DSA",
+  "git": "",
+  "groovy": "",
+  "jvm-tools": "JVM Tools",
+  "matlab": "Matlab",
+  "oss-programs": "OSS Programs",
+  "python-tools": "Python Tools",
+  "qemu": "QEMU"
 }

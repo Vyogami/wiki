@@ -182,10 +182,12 @@ println("Hello, $name! You are $age years old.")
 ## Math
 
 - Constants:
+
   - `Math.PI`: The mathematical constant pi (approximately 3.141592653589793).
   - `Math.E`: The mathematical constant e (approximately 2.718281828459045).
 
 - Basic Math Operations:
+
   - `Math.abs(x)`: Returns the absolute value of a number.
   - `Math.ceil(x)`: Returns the smallest integer greater than or equal to a given number.
   - `Math.floor(x)`: Returns the largest integer less than or equal to a given number.
@@ -196,6 +198,7 @@ println("Hello, $name! You are $age years old.")
   - `Math.sqrt(x)`: Returns the square root of a given number.
 
 - Trigonometric Functions:
+
   - `Math.sin(x)`: Returns the sine of a given angle in radians.
   - `Math.cos(x)`: Returns the cosine of a given angle in radians.
   - `Math.tan(x)`: Returns the tangent of a given angle in radians.

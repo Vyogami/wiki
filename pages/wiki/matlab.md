@@ -9,7 +9,7 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    % Row Vector
    x = [1, 2, 3, 4, 5]
-   
+
    % Column Vector
    y = [1; 2; 3; 4; 5]
    ```
@@ -26,13 +26,13 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    % Addition
    C = A + B
-   
+
    % Subtraction
    D = A - B
-   
+
    % Multiplication
    E = A * B
-   
+
    % Exponentiation
    F = A ^ 2
    ```
@@ -42,13 +42,13 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    % Inverse
    inv_A = inv(A)
-   
+
    % Transpose
    A_transpose = A'
-   
+
    % Rank
    rank_A = rank(A)
-   
+
    % Plotting
    plot(A)
    ```
@@ -60,7 +60,7 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    % Horizontal Concatenation
    C = [A, B]
-   
+
    % Vertical Concatenation
    D = [A; B]
    ```
@@ -70,19 +70,19 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    % Indexing
    element = A(2, 3)
-   
+
    % Sorting
    sorted_A = sort(A)
-   
+
    % Shifting
    shifted_A = circshift(A, [1, 2])
-   
+
    % Reshaping
    reshaped_A = reshape(A, [2, 6])
-   
+
    % Resizing
    resized_A = imresize(A, [4, 4])
-   
+
    % Flipping
    flipped_A = fliplr(A)
    ```
@@ -93,7 +93,7 @@ This cheat sheet provides a reference for performing various operations and expe
    % Relational Operations
    greater_than = X > Y
    less_than_equal = X <= Y
-   
+
    % Logical Operations
    logical_and = X & Y
    logical_or = X | Y
@@ -119,7 +119,7 @@ This cheat sheet provides a reference for performing various operations and expe
 
    ```matlab
    random_sequence = rand(1, N)
-   
+
    % Plotting
    plot(random_sequence)
    ```
@@ -139,19 +139,20 @@ This cheat sheet provides a reference for performing various operations and expe
 
    ```matlab
    t = linspace(0, duration, 1000);
-   
+
    sin_t
+   ```
 
- = sin(t)
-   cos_t = cos(t)
-   tan_t = tan(t)
-   sec_t = sec(t)
-   csc_t = csc(t)
-   cot_t = cot(t)
+= sin(t)
+cos_t = cos(t)
+tan_t = tan(t)
+sec_t = sec(t)
+csc_t = csc(t)
+cot_t = cot(t)
 
-   % Plotting
-   plot(t, sin_t, t, cos_t, t, tan_t, t, sec_t, t, csc_t, t, cot_t)
-   legend('sin(t)', 'cos(t)', 'tan(t)', 'sec(t)', 'csc(t)', 'cot(t)')
+% Plotting
+plot(t, sin_t, t, cos_t, t, tan_t, t, sec_t, t, csc_t, t, cot_t)
+legend('sin(t)', 'cos(t)', 'tan(t)', 'sec(t)', 'csc(t)', 'cot(t)')
 
 1. **Logarithmic and Other Functions:**
 
@@ -181,12 +182,12 @@ This cheat sheet provides a reference for performing various operations and expe
 
    ```matlab
    x = linspace(0, 4, 100);
-   
+
    y1 = x;
    y2 = x.^3;
    y3 = exp(x);
    y4 = exp(x.^2);
-   
+
    % Rectangular Plot
    plot(x, y1, x, y2, x, y3, x, y4)
    legend('x', 'x^3', 'e^x', 'e^{x^2}')
@@ -305,10 +306,10 @@ title('Square Wave')
    x = cos(t);
    y = sin(t);
    z = t;
-   
+
    % 2D Plot
    plot(x, y)
-   
+
    % 3D Plot
    plot3(x, y, z)
    ```
@@ -318,10 +319,10 @@ title('Square Wave')
    ```matlab
    x = [0, 1, 1, 0];
    y = [0, 0, 1, 1];
-   
+
    % 2D Plot
    fill(x, y, 'r')
-   
+
    % 3D Plot
    fill3(x, y, z, 'r')
    ```
@@ -331,10 +332,10 @@ title('Square Wave')
    ```matlab
    [X, Y] = meshgrid(-2:0.1:2, -2:0.1:2);
    Z = X.^2 + Y.^2;
-   
+
    % 3D Plot
    mesh(X, Y, Z)
-   
+
    % Contour Lines
    contour(X, Y, Z)
    ```
@@ -346,7 +347,7 @@ title('Square Wave')
    values = [25, 35, 20, 10, 10];
    labels = {'Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5'};
    pie(values, labels)
-   
+
    % Bar Chart
    x = [1, 2, 3, 4, 5];
    y = [10, 15, 8, 12, 6];

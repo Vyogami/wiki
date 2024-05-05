@@ -1,10 +1,16 @@
-import { Link } from 'nextra-theme-docs';
-import styles from './Projects.module.css';
-import { Project } from './Project'
+import { Link } from "nextra-theme-docs";
+import styles from "./Projects.module.css";
+import { Project } from "./Project";
 
-import { Bot, CodeXml, TerminalSquare, BrainCircuit, TramFront } from 'lucide-react';
-import { faAndroid } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  Bot,
+  CodeXml,
+  TerminalSquare,
+  BrainCircuit,
+  TramFront,
+} from "lucide-react";
+import { faAndroid } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Projects() {
   return (
@@ -15,9 +21,9 @@ export function Projects() {
           title="Vadi"
           description={
             <>
-            A simple, interpreted and dynamically-typed programming language.
-            <br/>
-            <Link href="https://github.com/vyogami/vadi"> Github →</Link>
+              A simple, interpreted and dynamically-typed programming language.
+              <br />
+              <Link href="https://github.com/vyogami/vadi"> Github →</Link>
             </>
           }
           icon={<CodeXml />}
@@ -27,18 +33,21 @@ export function Projects() {
           description={
             <>
               Telegram bot for Amizone, powered by the go-amizone API
-              <br/>
-              <Link href="https://github.com/asetalias/amibot-tg">Github →</Link>
+              <br />
+              <Link href="https://github.com/asetalias/amibot-tg">
+                Github →
+              </Link>
             </>
           }
-          icon={<Bot/>}
+          icon={<Bot />}
         />
         <Project
           title="Gritlle"
           description={
             <>
-              OS agnostic package fuzzy finder TUI for apt, dnf, yay, winget and brew.
-              <br/>
+              OS agnostic package fuzzy finder TUI for apt, dnf, yay, winget and
+              brew.
+              <br />
               <Link href="https://github.com/vyogami/grittle">Github →</Link>
             </>
           }
@@ -48,21 +57,22 @@ export function Projects() {
           title="Amidroid"
           description={
             <>
-              Android application for go-amizone API with beautiful Material You UI 3.
-              <br/>
+              Android application for go-amizone API with beautiful Material You
+              UI 3.
+              <br />
               <Link href="https://github.com/vyogami/amidroid">Github →</Link>
             </>
           }
-          icon={<FontAwesomeIcon icon={faAndroid}/>}
+          icon={<FontAwesomeIcon icon={faAndroid} />}
         />
         <Project
           title="Dorf"
           description={
             <>
               Image categorization and deduplication system.
-              <br/>
+              <br />
               It employs Golang for better performance.
-              <br/>
+              <br />
               <Link href="https://github.com/vyogami/dorf">Github →</Link>
             </>
           }
@@ -72,8 +82,9 @@ export function Projects() {
           title="Teas"
           description={
             <>
-              Transit Efficiency & Allocation System for optimzing resource allocation in metro.
-              <br/>
+              Transit Efficiency & Allocation System for optimzing resource
+              allocation in metro.
+              <br />
               <Link href="https://github.com/vyogami/teas">Github →</Link>
             </>
           }

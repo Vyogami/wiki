@@ -1,4 +1,3 @@
-
 # Data Structures and Algorithms
 
 These are self-notes on various data structures and algorithms. It includes descriptions of the data structures and algorithms along with their pseudocodes. Please note that the descriptions and pseudocodes provided here are simplified for understanding purposes and may not be the most optimized or complete implementations.
@@ -9,7 +8,7 @@ These are self-notes on various data structures and algorithms. It includes desc
 
 Description: An array is a sequential collection of elements of the same type. It allows fast access to individual elements using their index.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Initialize an array
@@ -29,7 +28,7 @@ length = array.length
 
 Description: A linked list is a linear data structure consisting of nodes, where each node contains a value and a reference to the next node. It allows dynamic memory allocation and efficient insertion and deletion operations.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Node definition
@@ -73,7 +72,7 @@ while current is not None:
 
 Description: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. It allows the addition of elements (push) and removal of elements (pop) from the top.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Initialize an empty stack
@@ -96,9 +95,9 @@ is_empty = (stack.length == 0)
 
 Description: A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. It allows the addition of elements (enqueue) at the rear and removal
 
- of elements (dequeue) from the front.
+of elements (dequeue) from the front.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Initialize an empty queue
@@ -121,7 +120,7 @@ is_empty = (queue.length == 0)
 
 Description: A hash table (also known as a hash map) is a data structure that uses a hash function to map keys to values. It provides efficient insertion, deletion, and retrieval operations.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Initialize a hash table
@@ -147,7 +146,7 @@ size = table.size()
 
 Description: A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Node definition
@@ -166,7 +165,7 @@ tree.right_child = right_subtree
 
 Description: A heap is a complete binary tree that satisfies the heap property. In a min-heap, for any given node, the value of that node is less than or equal to the values of its children. In a max-heap, the value of the node is greater than or equal to the values of its children. Heaps are often used to implement priority queues.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Heapify a subtree rooted at given index
@@ -196,7 +195,7 @@ build_heap(array):
 
 Description: A trie, also known as a prefix tree, is a tree-like data structure used to efficiently store and retrieve strings. It is commonly used in applications such as autocomplete, spell-checking, and IP routing.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Trie Node
@@ -251,7 +250,7 @@ delete_word_helper(node, word, index):
 
 Description: A graph is a non-linear data structure consisting of nodes (vertices) connected by edges. Graphs are used to model relationships between objects and solve problems such as route finding, social network analysis, and optimization.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Graph
@@ -289,7 +288,7 @@ get_neighbors(graph, vertex):
 
 Description: Dijkstra's algorithm is a popular algorithm for finding the shortest path between nodes in a graph with non-negative edge weights. It maintains a priority queue of nodes and greedily selects the node with the shortest distance from the source.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Dijkstra's Algorithm
@@ -321,7 +320,7 @@ dijkstra(graph, source):
 
 Description: Kruskal's algorithm is used to find the minimum spanning tree of a connected, weighted graph. It starts with an empty set of edges and iteratively adds the shortest edge that does not create a cycle in the graph.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Kruskal's Algorithm
@@ -349,7 +348,7 @@ kruskal(graph):
 
 Description: Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. It continues until the entire list is sorted.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Bubble Sort
@@ -365,7 +364,7 @@ bubble_sort(array):
 
 Description: Selection sort is a sorting algorithm that selects the smallest element from the unsorted portion of the list and swaps it with the element at the beginning of the unsorted portion. It continues until the entire list is sorted.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Selection Sort
@@ -383,7 +382,7 @@ selection_sort(array):
 
 Description: Insertion sort is a sorting algorithm that builds a sorted portion of the list by iteratively inserting elements from the unsorted portion into their correct positions. It continues until the entire list is sorted.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Insertion Sort
@@ -402,7 +401,7 @@ insertion_sort(array):
 
 Description: Merge sort is a divide-and-conquer sorting algorithm that divides the list into smaller sublists, sorts them recursively, and then merges them back into a sorted list.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Merge Sort
@@ -441,7 +440,7 @@ merge(left, right):
 
 Description: Quick sort is a divide-and-conquer sorting algorithm that selects a pivot element, partitions the list into two sublists (elements smaller than the pivot and elements larger than the pivot), and recursively sorts the sublists.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Quick Sort
@@ -469,7 +468,7 @@ partition(array, low, high):
 
 Description: Linear search is a simple searching algorithm that sequentially checks each element in the list until the target element is found or the end of the list is reached.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Linear Search
@@ -485,7 +484,7 @@ linear_search(array, target):
 
 Description: Binary search is an efficient searching algorithm for sorted lists. It repeatedly divides the search interval in half and compares the target element with the middle element.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Binary Search
@@ -509,7 +508,7 @@ binary_search(array, target):
 
 Description: Depth-first search is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It uses a stack (or recursion) to keep track of the visited nodes.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Depth-First Search (DFS)
@@ -529,7 +528,7 @@ dfs(graph, start):
 
 Description: Breadth-first search is a graph traversal algorithm that explores all the vertices of a graph in breadth-first order. It uses a queue to keep track of the visited nodes.
 
->**Pseudocode:**
+> **Pseudocode:**
 
 ```c
 // Breadth-First Search (BFS)

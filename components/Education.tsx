@@ -1,12 +1,12 @@
-import styles from './Education.module.css';
-import { Rocket } from './Rocket';
+import styles from "./Education.module.css";
+import { Rocket } from "./Rocket";
 
 export function Education() {
   return (
     <div className={styles.root}>
       <ul className={styles.education}>
         <li className={styles.text}>
-          I'm a junior year 
+          I'm a junior year
           <br />
           undergrad student.
         </li>

@@ -6,17 +6,17 @@ Poetry is a dependency manager and build tool for Python. It is designed to simp
 
 To install Poetry, follow these steps:
 
-   ```bash
-   curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-   ```
+```bash
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+```
 
 ## Creating a New Project
 
-   ```bash
-   poetry new myproject
-   ```
+```bash
+poetry new myproject
+```
 
-   This command creates a new directory named `myproject` and initializes it with a basic project structure and a `pyproject.toml` file, which is used by Poetry to manage project dependencies.
+This command creates a new directory named `myproject` and initializes it with a basic project structure and a `pyproject.toml` file, which is used by Poetry to manage project dependencies.
 
 ## Managing Dependencies
 
@@ -31,7 +31,7 @@ Poetry allows you to manage dependencies for your project using the `pyproject.t
   This command installs the specified package and its dependencies and adds it to the `pyproject.toml` file.
 
 - **Add a dependency in development mode**:
-  
+
   ```bash
   poetry add -D package_name
   ```
@@ -103,15 +103,15 @@ Poetry provides an integrated approach to manage Python environments for your pr
   Use this command to exit the virtual environment and return to your system's default Python environment.
 
 - **Remove the virtual environment**:
-  
+
   To remove a virtual environment created by poetry you can simply delete the env
 
   For example:
 
   ```bash
-  rm -rf ~/.cache/pypoetry/virtualenvs/scraper-2VoIUhnA-py3.5 
+  rm -rf ~/.cache/pypoetry/virtualenvs/scraper-2VoIUhnA-py3.5
   ```
-  
+
   > **Note**: you can check the location of the env by executing `which python` after activating the env using `poetry shell`.
 
 ## Building and Running

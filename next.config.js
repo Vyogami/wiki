@@ -1,8 +1,8 @@
-import nextra from 'nextra';
+import nextra from "nextra";
 
 const withNextra = nextra({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.jsx',
+  theme: "nextra-theme-docs",
+  themeConfig: "./theme.config.jsx",
   defaultShowCopyCode: true,
   staticImage: true,
   flexsearch: {
@@ -11,13 +11,13 @@ const withNextra = nextra({
 });
 
 export default withNextra({
-  output: 'export',
+  output: "export",
   images: { unoptimized: true },
   webpack(config) {
     const allowedSvgRegex = /\/components\/svg\/.+\.svg$/;
 
-    const fileLoaderRule = config.module.rules.find(rule => {
-      return rule.test instanceof RegExp && rule.test.test('.svg');
+    const fileLoaderRule = config.module.rules.find((rule) => {
+      return rule.test instanceof RegExp && rule.test.test(".svg");
     });
     fileLoaderRule.exclude = allowedSvgRegex;
 
@@ -26,9 +26,9 @@ export default withNextra({
     // which Next.js handles by default.
     config.module.rules.push({
       test: allowedSvgRegex,
-      use: ['@svgr/webpack'],
+      use: ["@svgr/webpack"],
     });
     return config;
   },
-  transpilePackages: ['lucide-react'],
-  });
+  transpilePackages: ["lucide-react"],
+});

@@ -16,21 +16,21 @@ Here are some of the most commonly used commands in Docker:
 
 - **List running containers:**
 
-    ```bash
-    docker ps
-    ```
+  ```bash
+  docker ps
+  ```
 
 - **List all containers (including stopped ones):**
 
-    ```bash
-    docker ps -a
-    ```
+  ```bash
+  docker ps -a
+  ```
 
 - **Create a container from an image:**
 
-    ```bash
-    docker create --name mycontainer image:tag
-    ```
+  ```bash
+  docker create --name mycontainer image:tag
+  ```
 
   - `--name`: Specifies the name you want to assign to the container. (Default: randomly generated name)
   - `image:tag`: Specifies the image and its version or tag to use for creating the container.
@@ -38,27 +38,27 @@ Here are some of the most commonly used commands in Docker:
 
 - **Start a container:**
 
-    ```bash
-    docker start mycontainer
-    ```
+  ```bash
+  docker start mycontainer
+  ```
 
 - **Stop a running container:**
 
-    ```bash
-    docker stop mycontainer
-    ```
+  ```bash
+  docker stop mycontainer
+  ```
 
 - **Restart a container:**
 
-    ```bash
-    docker restart mycontainer
-    ```
+  ```bash
+  docker restart mycontainer
+  ```
 
 - **Remove a container:**
 
-    ```bash
-    docker rm mycontainer
-    ```
+  ```bash
+  docker rm mycontainer
+  ```
 
 ## Port Mapping
 
@@ -80,26 +80,26 @@ docker run -p 8888:8080 image:tag
 
 - **List available images:**
 
-    ```bash
-    docker image ls
-    ```
+  ```bash
+  docker image ls
+  ```
 
 - **Pull an image from a registry:**
 
-    ```bash
-    docker pull image:tag
-    ```
+  ```bash
+  docker pull image:tag
+  ```
 
 - **Remove an image:**
 
-    ```bash
-    docker image rm image:tag
-    ```
+  ```bash
+  docker image rm image:tag
+  ```
 
-    > `prune` is used for removing unused images to reclaim disk space, `rm` is used for selectively removing specific Docker images.
+  > `prune` is used for removing unused images to reclaim disk space, `rm` is used for selectively removing specific Docker images.
 
 - **Remove unused images:**
-  
+
   ```bash
   docker image prune
   ```
@@ -113,9 +113,9 @@ docker run -p 8888:8080 image:tag
 
 - **Build an image from a Dockerfile:**
 
-    ```bash
-    docker build -t image:tag .
-    ```
+  ```bash
+  docker build -t image:tag .
+  ```
 
   - `-t`: Assigns a tag or name to the built image. (Default: no tag)
   - `.`: Specifies the build context, which is the directory containing the Dockerfile.
@@ -172,57 +172,57 @@ docker run -p 8888:8080 image:tag
 
 - **Create a named volume:**
 
-    ```bash
-    docker volume create myvolume
-    ```
+  ```bash
+  docker volume create myvolume
+  ```
 
 - **Mount a volume to a container:**
 
-    ```bash
-    docker run -v myvolume:/path/in/container image:tag
-    ```
+  ```bash
+  docker run -v myvolume:/path/in/container image:tag
+  ```
 
   - `-v`: Mounts a volume to the specified path inside the container.
 
 - **List all volumes:**
 
-    ```bash
-    docker volume ls
-    ```
+  ```bash
+  docker volume ls
+  ```
 
 - **Remove a volume:**
 
-    ```bash
-    docker volume rm myvolume
-    ```
+  ```bash
+  docker volume rm myvolume
+  ```
 
 ## Network Management
 
 - **List all networks:**
 
-    ```bash
-    docker network ls
-    ```
+  ```bash
+  docker network ls
+  ```
 
 - **Create a network:**
 
-    ```bash
-    docker network create mynetwork
-    ```
+  ```bash
+  docker network create mynetwork
+  ```
 
 - **Run a container on a specific network:**
 
-    ```bash
-    docker run --network=mynetwork image:tag
-    ```
+  ```bash
+  docker run --network=mynetwork image:tag
+  ```
 
   - `--network`: Specifies the network to connect the container to. (Default: "bridge"), other networks are `host`.
 
 - **Remove a network:**
 
-    ```bash
-    docker network rm mynetwork
-    ```
+  ```bash
+  docker network rm mynetwork
+  ```
 
 ## Miscellaneous Commands
 
@@ -230,21 +230,21 @@ Here are a few more commands that can be helpful:
 
 - **View logs of a running container:**
 
-    ```bash
-    docker logs mycontainer
-    ```
+  ```bash
+  docker logs mycontainer
+  ```
 
 - **Execute a command inside a running container:**
 
-    ```bash
-    docker exec mycontainer command
-    ```
+  ```bash
+  docker exec mycontainer command
+  ```
 
 - **Inspect details of a container:**
 
-    ```bash
-    docker inspect mycontainer
-    ```
+  ```bash
+  docker inspect mycontainer
+  ```
 
 ## Further Reading
 
