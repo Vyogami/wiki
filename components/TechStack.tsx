@@ -1,48 +1,7 @@
 import { cn } from "../utils/cn";
 import Marquee from "./Marquee";
 import styles from "./TechStack.module.css";
-
-const technologies = [
-  {
-    name: "Python",
-    img: "logos/python.svg",
-  },
-  {
-    name: "Rust",
-    img: "logos/rust.svg",
-  },
-  {
-    name: "Golang",
-    img: "logos/go.svg",
-  },
-  {
-    name: "Kotlin",
-    img: "logos/kotlin.svg",
-  },
-  {
-    name: "Linux",
-    img: "logos/archlinux.svg",
-  },
-  {
-    name: "Docker",
-    img: "logos/docker.svg",
-  },
-  {
-    name: "Pandas",
-    img: "logos/pandas.svg",
-  },
-  {
-    name: "Android",
-    img: "logos/android.svg",
-  },
-  {
-    name: "Javascript",
-    img: "logos/javascript.svg",
-  },
-];
-
-const firstRow = technologies.slice(0, technologies.length / 2);
-const secondRow = technologies.slice(technologies.length / 2);
+import techData from "../assets/technologies.json"; // assuming the JSON file is located in 'assets' folder
 
 const TechStackCard = ({ img, name }: { img: string; name: string }) => {
   return (
@@ -61,7 +20,6 @@ const TechStackCard = ({ img, name }: { img: string; name: string }) => {
           alt=""
           src={img}
         />
-
         {name}
       </div>
     </div>
@@ -69,18 +27,21 @@ const TechStackCard = ({ img, name }: { img: string; name: string }) => {
 };
 
 export const TechStack = () => {
+  const firstRow = techData.slice(0, techData.length / 2);
+  const secondRow = techData.slice(techData.length / 2);
+
   return (
     <div className={styles.root}>
       <h3 className={styles.h3}>Tech Stack</h3>
       <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background py-20 md:shadow-xl">
         <Marquee pauseOnHover className="[--duration:20s]">
-          {firstRow.map((review) => (
-            <TechStackCard key={review.name} {...review} />
+          {firstRow.map((tech) => (
+            <TechStackCard key={tech.name} {...tech} />
           ))}
         </Marquee>
         <Marquee reverse pauseOnHover className="[--duration:20s]">
-          {secondRow.map((review) => (
-            <TechStackCard key={review.name} {...review} />
+          {secondRow.map((tech) => (
+            <TechStackCard key={tech.name} {...tech} />
           ))}
         </Marquee>
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black dark:from-background"></div>

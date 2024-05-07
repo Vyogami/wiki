@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Python",
+    "img": "logos/python.svg"
+  },
+  {
+    "name": "Rust",
+    "img": "logos/rust.svg"
+  },
+  {
+    "name": "Golang",
+    "img": "logos/go.svg"
+  },
+  {
+    "name": "Kotlin",
+    "img": "logos/kotlin.svg"
+  },
+  {
+    "name": "Linux",
+    "img": "logos/archlinux.svg"
+  },
+  {
+    "name": "Docker",
+    "img": "logos/docker.svg"
+  },
+  {
+    "name": "Pandas",
+    "img": "logos/pandas.svg"
+  },
+  {
+    "name": "Android",
+    "img": "logos/android.svg"
+  },
+  {
+    "name": "Javascript",
+    "img": "logos/javascript.svg"
+  }
+]
