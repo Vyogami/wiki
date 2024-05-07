@@ -32,7 +32,19 @@
     "img": "logos/android.svg"
   },
   {
-    "name": "Javascript",
-    "img": "logos/javascript.svg"
+    "name": "Numpy",
+    "img": "logos/numpy.svg"
+  },
+  {
+    "name": "Tensorflow",
+    "img": "logos/tensorflow.svg"
+  },
+  {
+    "name": "Django",
+    "img": "logos/django.svg"
+  },
+  {
+    "name": "Flask",
+    "img": "logos/flask.svg"
   }
 ]
