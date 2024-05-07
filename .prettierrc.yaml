@@ -1,0 +1,7 @@
+overrides:
+  - files: "*.svg"
+    options:
+      parser: "html"
+  - files: "*.xml"
+    options:
+      parser: "html"

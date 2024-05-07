@@ -1,3 +1,15 @@
 dist
 build
 coverage
+.husky
+*.lockb
+
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.ico
+
+.gitignore
+.prettierignore
+LICENSE
