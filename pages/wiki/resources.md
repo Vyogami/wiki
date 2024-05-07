@@ -85,6 +85,7 @@ Resources related to various topics and fields.
 - [Lucide.dev](https://lucide.dev/)
 - Font awesome
 - Icons8
+- [SVG Repo](https://www.svgrepo.com/)
 
 ### Design Inspiration
 
