@@ -1,0 +1,15 @@
+{
+  "-- Programs": {
+    "type": "separator",
+    "title": "Programs"
+  },
+
+  "oss-programs-list": "Curated List",
+  "gsoc": "GSoC",
+  "c4gt": "C4GT",
+
+  "-- Organisations": {
+    "type": "separator",
+    "title": "Organisations"
+  }
+}

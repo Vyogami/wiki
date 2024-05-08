@@ -1,10 +1,4 @@
-# OSS Programs
-
-Curated list of open source software programs.
-
-## GSoC
-
-`Organisations of interest!`
+#### `Organisations of interest!`
 
 - Chromium:
 
