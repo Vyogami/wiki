@@ -18,7 +18,7 @@ export const projectsData = [
   },
   {
     title: "Amibot-tg",
-    description: "Telegram bot for Amizone, powered by the go-amizone API",
+    description: "Telegram bot for Amizone, powered b y the go-amizone API",
     link: "https://github.com/asetalias/amibot-tg",
     icon: <Bot />,
   },
@@ -26,28 +26,28 @@ export const projectsData = [
     title: "Gritlle",
     description:
       "OS agnostic package fuzzy finder TUI for apt, dnf, yay, winget and brew.",
-    link: "https://github.com/vyogami/grittle",
+    link: "",
     icon: <TerminalSquare />,
   },
   {
     title: "Amidroid",
     description:
       "Android application for go-amizone API with beautiful Material You UI 3.",
-    link: "https://github.com/vyogami/amidroid",
+    link: "",
     icon: <FontAwesomeIcon icon={faAndroid} />,
   },
   {
     title: "Dorf",
     description:
       "Image categorization and deduplication system. It employs Golang for better performance.",
-    link: "https://github.com/vyogami/dorf",
+    link: "",
     icon: <BrainCircuit />,
   },
   {
     title: "Teas",
     description:
       "Transit Efficiency & Allocation System for optimizing resource allocation in metro.",
-    link: "https://github.com/vyogami/teas",
+    link: "",
     icon: <TramFront />,
   },
 ];
