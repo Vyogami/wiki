@@ -32,14 +32,14 @@ Resources related to various topics and fields.
 
 ## Data Science
 
-`Youtube:`
+#### `Youtube:`
 
-- 3blue1brown
-- Andrej Karpath
-- sentdex
-- deeplearningai
+- 3blue1brown `Channel`
+- Andrej Karpath `Channel`
+- sentdex `Channel`
+- deeplearningai `Channel`
 
-`Reference:`
+#### `Reference:`
 
 - <https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack>
 - Project list for DL/ML/AI [Link](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file)
@@ -51,16 +51,16 @@ Resources related to various topics and fields.
 
 ### Deep learning
 
-`Youtube:`
+#### `Youtube:`
 
-- Freecodecamp: PyTorch for Deep Learning and Machine Learning [25hrs] [Link](https://youtu.be/V_xro1bcAuA)
+- Freecodecamp: PyTorch for Deep Learning and Machine Learning `25hrs` [Link](https://youtu.be/V_xro1bcAuA)
 
-`Project Ideas:`
+#### `Project Ideas:`
 
-- CampusX: Email spam classifier [1.4hrs] [Link](https://youtu.be/YncZ0WwxyzU)
-- CampusX: Duplicate Question Pairs [1.3hrs] [Link](https://youtu.be/1fvQU5yPjFs)
+- CampusX: Email spam classifier `1.4hrs` [Link](https://youtu.be/YncZ0WwxyzU)
+- CampusX: Duplicate Question Pairs `1.3hrs` [Link](https://youtu.be/1fvQU5yPjFs)
 
-`Reference:`
+#### `Reference:`
 
 - <https://udlbook.github.io/udlbook/>
 
@@ -112,7 +112,7 @@ Resources related to various topics and fields.
 
 ### Emmet
 
-`Reference:`
+#### `Reference:`
 
 - [cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
@@ -120,32 +120,32 @@ Resources related to various topics and fields.
 
 ### Clouflare
 
-`Reference:`
+#### `Reference:`
 
-- Devin Schumacher: Clouflare Redirects [8mins] [Link](https://www.youtube.com/watch?v=NcZYnZHl4w8)
+- Devin Schumacher: Clouflare Redirects `8mins` [Link](https://www.youtube.com/watch?v=NcZYnZHl4w8)
 
 ## Language
 
 ### Golang
 
-`YouTube:`
+#### `YouTube:`
 
-- Anthony GG [Channel]
-- Coffee into Code [Channel]
+- Anthony GG `Channel`
+- Coffee into Code `Channel`
 
 - [Matt Kodvb](https://www.youtube.com/watch?v=iDQAZEJK8lI&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6)
 - [Nick Jackson](https://www.youtube.com/watch?v=VzBGi_n65iU)
-- Coffee into Code: Build simple Go API [Playlist] [Link](https://youtube.com/playlist?list=PLVcSqJ1eEM8PwfyOi1ZmXGSCrv33U8I7Y)
+- Coffee into Code: Build simple Go API `Playlist` [Link](https://youtube.com/playlist?list=PLVcSqJ1eEM8PwfyOi1ZmXGSCrv33U8I7Y)
 
-`Project Ideas:`
+#### `Project Ideas:`
 
-- Boot dev: Web server and RSS Scraper [2.5hrs] [Link](https://youtu.be/dpXhDzgUSe4)
-- Edward Viaene: DNS in Go [2hrs] [Link](https://youtu.be/V3EAssIsQNI)
-- Anthony GG: Redis from scratch in Go [2hrs] [Link](https://www.youtube.com/live/v44bAtgEEUw)
-- TJ DeVries: LSP in Go [2hrs] [Link](https://youtu.be/YsdlcQoHqPY)
-- Coffee into Code: Build search engine in Go [Playlist] [Link](https://youtube.com/playlist?list=PLVcSqJ1eEM8N3dfkXTbEgeuxpo8_A-mSz)
+- Boot dev: Web server and RSS Scraper `2.5hrs` [Link](https://youtu.be/dpXhDzgUSe4)
+- Edward Viaene: DNS in Go `2hrs` [Link](https://youtu.be/V3EAssIsQNI)
+- Anthony GG: Redis from scratch in Go `2hrs` [Link](https://www.youtube.com/live/v44bAtgEEUw)
+- TJ DeVries: LSP in Go `2hrs` [Link](https://youtu.be/YsdlcQoHqPY)
+- Coffee into Code: Build search engine in Go `Playlist` [Link](https://youtube.com/playlist?list=PLVcSqJ1eEM8N3dfkXTbEgeuxpo8_A-mSz)
 
-`Reference:`
+#### `Reference:`
 
 - <https://www.reddit.com/r/golang/comments/mfqypn/go_youtube_channels/>
 - Learn go with tests: <https://quii.gitbook.io/learn-go-with-tests>
@@ -154,28 +154,28 @@ Resources related to various topics and fields.
 
 ### Python
 
-`Youtube:`
+#### `Youtube:`
 
-- mCoding [Channel]
-- Clear Code [Channel]
-- indently [Channel]
-- Patrick Loeber [Channel]
-- Corey Schafer [Channel]
-- Bro Code [Channel]
+- mCoding `Channel`
+- Clear Code `Channel`
+- indently `Channel`
+- Patrick Loeber `Channel`
+- Corey Schafer `Channel`
+- Bro Code `Channel`
 
-- Freecodecamp: PyTorch for Deep Learning and Machine Learning [25hrs] [Link](https://youtu.be/V_xro1bcAuA)
-- ByteSeb: Libadwaita basics [52mins] [Link](https://youtu.be/WtvObZHhdf0)
-- Bro Code: Full python course [12hrs] [Link](https://youtu.be/XKHEtdqhLK8)
-- Freecodecamp: Pytest [1.5hrs] [Link](https://www.youtube.com/watch?v=cHYq1MRoyI0)
+- Freecodecamp: PyTorch for Deep Learning and Machine Learning `25hrs` [Link](https://youtu.be/V_xro1bcAuA)
+- ByteSeb: Libadwaita basics `52mins` [Link](https://youtu.be/WtvObZHhdf0)
+- Bro Code: Full python course `12hrs` [Link](https://youtu.be/XKHEtdqhLK8)
+- Freecodecamp: Pytest `1.5hrs` [Link](https://www.youtube.com/watch?v=cHYq1MRoyI0)
 
-`Project Ideas:`
+#### `Project Ideas:`
 
-- howCode: DNS in Python [Playlist] [Link](https://youtube.com/playlist?list=PLBOh8f9FoHHhvO5e5HF_6mYvtZegobYX2)
-- CampusX: Email spam classifier [1.4hrs] [Link](https://youtu.be/YncZ0WwxyzU)
-- CampusX: Duplicate Question Pairs [1.3hrs] [Link](https://youtu.be/1fvQU5yPjFs)
-- codePulse: Compiler in python [Playlist] [Link](https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD)
+- howCode: DNS in Python `Playlist` [Link](https://youtube.com/playlist?list=PLBOh8f9FoHHhvO5e5HF_6mYvtZegobYX2)
+- CampusX: Email spam classifier `1.4hrs` [Link](https://youtu.be/YncZ0WwxyzU)
+- CampusX: Duplicate Question Pairs `1.3hrs` [Link](https://youtu.be/1fvQU5yPjFs)
+- codePulse: Compiler in python `Playlist` [Link](https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD)
 
-`Reference:`
+#### `Reference:`
 
 - Project template: <https://www.reddit.com/r/Python/comments/vnh8od/here_are_5_python_project_starter_templates_after/>
 - Awesome Python: <https://github.com/vinta/awesome-python>
@@ -183,45 +183,45 @@ Resources related to various topics and fields.
 
 ### Kotlin
 
-`Youtube:`
+#### `Youtube:`
 
-- PhilippLackner: [Channel] [Link](https://www.youtube.com/@PhilippLackner)
-- Donn Felker: Kotlin basics [9hrs] [Link](https://youtu.be/wuiT4T_LJQo)
-- Freecodecamp: Kotin basics [13hrs] [Link](https://youtu.be/EExSSotojVI)
+- PhilippLackner: `Channel` [Link](https://www.youtube.com/@PhilippLackner)
+- Donn Felker: Kotlin basics `9hrs` [Link](https://youtu.be/wuiT4T_LJQo)
+- Freecodecamp: Kotin basics `13hrs` [Link](https://youtu.be/EExSSotojVI)
 
 ### Cpp/C++
 
-`Youtube:`
+#### `Youtube:`
 
-- strager: Hash table [33min] [Link](https://youtu.be/DMQ_HcNSOAI)
-- Freecodecamp: Data strucutures in C/Cpp [10hrs] [Link](https://youtu.be/B31LgI4Y4DQ)
+- strager: Hash table `33mins` [Link](https://youtu.be/DMQ_HcNSOAI)
+- Freecodecamp: Data strucutures in C/Cpp `10hrs` [Link](https://youtu.be/B31LgI4Y4DQ)
 
 ### SQL
 
-`Youtube:`
+#### `Youtube:`
 
-- Freecodecamp: SQL Analytics [11hrs] [Link](https://youtu.be/mXW7JHJM34k)
+- Freecodecamp: SQL Analytics `11hrs` [Link](https://youtu.be/mXW7JHJM34k)
 
 ## Android Devlopment
 
-`Youtube:`
+#### `Youtube:`
 
-- Android developers: Material design app in jetpack [Playlist] [Link](https://youtube.com/playlist?list=PLWz5rJ2EKKc-NRNrFR3LnB2Q5T2abuC9b)
-- Android developers: Building a scalable, modularized, testable app from scratch [25mins] [Link](https://www.youtube.com/watch?v=qX6zmKY4KP0)
+- Android developers: Material design app in jetpack `Playlist` [Link](https://youtube.com/playlist?list=PLWz5rJ2EKKc-NRNrFR3LnB2Q5T2abuC9b)
+- Android developers: Building a scalable, modularized, testable app from scratch `25mins` [Link](https://www.youtube.com/watch?v=qX6zmKY4KP0)
 
-`Reference:`
+#### `Reference:`
 
 - Google's android begginers jetpack compose course [Link](https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1)
 - Architectures: MVVM, MVI ...
 - RoomDB
 
-`Reference:`
+#### `Reference:`
 
 - [Donut/Ring graph](https://github.com/futuredapp/donut)
 
 ## Documentation
 
-`Reference:`
+#### `Reference:`
 
 - [Fumadocs](https://fumadocs.vercel.app/)
 - [Nextra](https://nextra.site/)
