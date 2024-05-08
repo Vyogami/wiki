@@ -73,4 +73,8 @@ export default {
     placeholder: "Search Personal Wiki",
   },
   darkMode: false,
+  nextThemes: {
+    defaultTheme: "dark",
+    forcedTheme: "dark",
+  },
 };
