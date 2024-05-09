@@ -21,5 +21,12 @@
   "matlab": "Matlab",
   "open-source": "Open Source",
   "python-tools": "Python Tools",
-  "qemu": "QEMU"
+  "qemu": "QEMU",
+
+  "-- Universities": {
+    "type": "separator",
+    "title": "Universities"
+  },
+
+  "amity": "Amity"
 }
