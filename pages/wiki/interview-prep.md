@@ -1,0 +1,11 @@
+- DSA
+  - Neetcode
+  - Python is acceptable.
+- ADA
+- COA
+- LLD
+- HLD
+- DBMS
+- OS
+- Aptitude
+- Verbal Interview
