@@ -39,7 +39,7 @@ Resources related to various topics and fields.
 - sentdex `Channel`
 - deeplearningai `Channel`
 
-#### `Reference:`
+#### `References:`
 
 - <https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack>
 - Project list for DL/ML/AI [Link](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code?tab=readme-ov-file)
@@ -60,7 +60,7 @@ Resources related to various topics and fields.
 - CampusX: Email spam classifier `1.4hrs` [Link](https://youtu.be/YncZ0WwxyzU)
 - CampusX: Duplicate Question Pairs `1.3hrs` [Link](https://youtu.be/1fvQU5yPjFs)
 
-#### `Reference:`
+#### `References:`
 
 - <https://udlbook.github.io/udlbook/>
 
@@ -112,7 +112,7 @@ Resources related to various topics and fields.
 
 ### Emmet
 
-#### `Reference:`
+#### `References:`
 
 - [cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
@@ -120,7 +120,7 @@ Resources related to various topics and fields.
 
 ### Clouflare
 
-#### `Reference:`
+#### `References:`
 
 - Devin Schumacher: Clouflare Redirects `8mins` [Link](https://www.youtube.com/watch?v=NcZYnZHl4w8)
 
@@ -145,7 +145,7 @@ Resources related to various topics and fields.
 - TJ DeVries: LSP in Go `2hrs` [Link](https://youtu.be/YsdlcQoHqPY)
 - Coffee into Code: Build search engine in Go `Playlist` [Link](https://youtube.com/playlist?list=PLVcSqJ1eEM8N3dfkXTbEgeuxpo8_A-mSz)
 
-#### `Reference:`
+#### `References:`
 
 - <https://www.reddit.com/r/golang/comments/mfqypn/go_youtube_channels/>
 - Learn go with tests: <https://quii.gitbook.io/learn-go-with-tests>
@@ -175,7 +175,7 @@ Resources related to various topics and fields.
 - CampusX: Duplicate Question Pairs `1.3hrs` [Link](https://youtu.be/1fvQU5yPjFs)
 - codePulse: Compiler in python `Playlist` [Link](https://www.youtube.com/playlist?list=PLZQftyCk7_SdoVexSmwy_tBgs7P0b97yD)
 
-#### `Reference:`
+#### `References:`
 
 - Project template: <https://www.reddit.com/r/Python/comments/vnh8od/here_are_5_python_project_starter_templates_after/>
 - Awesome Python: <https://github.com/vinta/awesome-python>
@@ -209,19 +209,19 @@ Resources related to various topics and fields.
 - Android developers: Material design app in jetpack `Playlist` [Link](https://youtube.com/playlist?list=PLWz5rJ2EKKc-NRNrFR3LnB2Q5T2abuC9b)
 - Android developers: Building a scalable, modularized, testable app from scratch `25mins` [Link](https://www.youtube.com/watch?v=qX6zmKY4KP0)
 
-#### `Reference:`
+#### `References:`
 
 - Google's android begginers jetpack compose course [Link](https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1)
 - Architectures: MVVM, MVI ...
 - RoomDB
 
-#### `Reference:`
+#### `References:`
 
 - [Donut/Ring graph](https://github.com/futuredapp/donut)
 
 ## Documentation
 
-#### `Reference:`
+#### `References:`
 
 - [Fumadocs](https://fumadocs.vercel.app/)
 - [Nextra](https://nextra.site/)

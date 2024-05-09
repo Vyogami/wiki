@@ -1,4 +1,4 @@
-#### `Reference:`
+#### `References:`
 
 - Proposal:
   - Proposal Template [Link](https://docs.google.com/document/d/1D2pLc_eP-8-waBnRuj57Tc_jQT7_-ZWRQCDjv6qtPTY/edit)

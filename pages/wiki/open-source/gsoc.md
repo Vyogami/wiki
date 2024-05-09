@@ -77,6 +77,6 @@
 - Wikimedia Foundation
 - Zulip
 
-#### `Reference:`
+#### `References:`
 
 - Previous year Proposals: [Gdrive: vyogami@gmail.com](https://drive.google.com/drive/folders/1bxPN3mDnZEcKbmQAgkO4NiUCXfHvzdM6?usp=sharing)
