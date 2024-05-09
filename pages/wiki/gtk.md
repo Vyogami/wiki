@@ -16,3 +16,10 @@
 - ZetCode: GUI Applications in Python with GTK [Link](https://zetcode.com/python/gtk/)
 - Gtk4 and libadwaita boilerplate: https://github.com/timlau/gtk4-python
 - Migration doc for Gtk3.x to Gtk4
+
+## Flathub
+
+#### `References:`
+
+- https://docs.flatpak.org/en/latest/python.html
+- https://www.loganasherjones.com/2018/05/using-flatpak-with-python/
