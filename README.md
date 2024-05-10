@@ -13,7 +13,7 @@ My personal wiki on various topics, tools, fields.
 1. Start the development server:
 
    ```shell
-   bun start
+   bun dev
    ```
 
 1. Check for formatting problems:
