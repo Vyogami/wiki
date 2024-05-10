@@ -5,11 +5,15 @@
   },
 
   "oss-programs-list": "Curated List",
-  "gsoc": "GSoC",
   "c4gt": "C4GT",
+  "gsoc": "GSoC",
+  "ospp": "OSPP",
+  "lfx-mentornship": "LFX Mentornship",
 
   "-- Organisations": {
     "type": "separator",
     "title": "Organisations"
-  }
+  },
+
+  "kde": "KDE"
 }
