@@ -8,4 +8,5 @@
 - DBMS
 - OS
 - Aptitude
+  - Solve Arihants book
 - Verbal Interview
