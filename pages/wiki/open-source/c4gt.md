@@ -1,3 +1,21 @@
+#### `2024`
+
+##### Timeline
+
+| Date               | Event                                                |
+| ------------------ | ---------------------------------------------------- |
+| April 8, 2024      | Applications open for contributors on Unstop         |
+| May 8, 2024        | Applications close for contributors on Unstop        |
+| May 25, 2024       | Results declared for selected contributors on Unstop |
+| June 11, 2024      | Coding period kick-starts on Unstop                  |
+| September 11, 2024 | Coding period ends on Unstop                         |
+
+##### Projects
+
+- Sugarlabs: GTK4 Exploration [Link](https://github.com/sugarlabs/DMP/issues/14)
+- Zenysis Technologies: Harmony: Streamline Harmony’s setup and improve documentation [Link](https://github.com/Zenysis/Harmony/issues/119)
+- SamagraX: WarpSQL: [Link](https://github.com/Samagra-Development/WarpSQL/issues/141)
+
 #### `References:`
 
 - Proposal:
