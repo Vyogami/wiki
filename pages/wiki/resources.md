@@ -116,6 +116,35 @@ Resources related to various topics and fields.
 
 - [cheatsheet](https://docs.emmet.io/cheat-sheet/)
 
+### VSCode
+
+#### `References:`
+
+- Solution for vim motion not working with wrapped lines in vscode [Superuser Link](https://superuser.com/questions/1290030/vs-code-how-can-i-move-the-cursor-by-display-line-when-wrapping-in-vs-code)
+  `keybindings.json`
+  ```json
+  {
+    "key": "up",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "down",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  }
+  ```
+
 ## Computer Networking
 
 ### Clouflare
