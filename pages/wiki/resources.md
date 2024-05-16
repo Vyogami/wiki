@@ -118,10 +118,19 @@ Resources related to various topics and fields.
 
 ### VSCode
 
+#### `Themes:`
+
+- Vesper
+- Tokyo night dark
+- Bearded monokai black
+- Catpuccin
+- Ayu dark
+
 #### `References:`
 
 - Solution for vim motion not working with wrapped lines in vscode [Superuser Link](https://superuser.com/questions/1290030/vs-code-how-can-i-move-the-cursor-by-display-line-when-wrapping-in-vs-code)
   `keybindings.json`
+
   ```json
   {
     "key": "up",
