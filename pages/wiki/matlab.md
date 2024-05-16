@@ -140,19 +140,16 @@ This cheat sheet provides a reference for performing various operations and expe
    ```matlab
    t = linspace(0, duration, 1000);
 
-   sin_t
+   sin_t = sin(t)
+   cos_t = cos(t)
+   tan_t = tan(t)
+   sec_t = sec(t)
+   csc_t = csc(t)
+   cot_t = cot(t)
+   % Plotting
+   plot(t, sin_t, t, cos_t, t, tan_t, t, sec_t, t, csc_t, t, cot_t)
+   legend('sin(t)', 'cos(t)', 'tan(t)', 'sec(t)', 'csc(t)', 'cot(t)')
    ```
-
-= sin(t)
-cos_t = cos(t)
-tan_t = tan(t)
-sec_t = sec(t)
-csc_t = csc(t)
-cot_t = cot(t)
-
-% Plotting
-plot(t, sin_t, t, cos_t, t, tan_t, t, sec_t, t, csc_t, t, cot_t)
-legend('sin(t)', 'cos(t)', 'tan(t)', 'sec(t)', 'csc(t)', 'cot(t)')
 
 1. **Logarithmic and Other Functions:**
 
