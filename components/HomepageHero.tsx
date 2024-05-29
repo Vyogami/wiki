@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./HomepageHero.module.css";
 import { Album, Github } from "lucide-react";
 import { Spotlight } from "./Spotlight";
+import RoleScramble from "./Roles";
 
 export function HomepageHero() {
   return (
@@ -17,7 +18,7 @@ export function HomepageHero() {
         </div>
         <h1 className={styles.headline}>Shivam Shandilya</h1>
         <p className={styles.subtitle}>
-          Hi! 👋 I'm a Developer, Data analyst and an Engineer.
+          Hi! 👋 I'm <RoleScramble />
         </p>
         <div className={styles.actions}>
           <Link className={styles.cta} href="/wiki/resources">
