@@ -28,5 +28,5 @@ export default function RoleScramble() {
     return () => clearInterval(intervalId);
   }, []);
 
-  return <span ref={ref}></span>;
+  return <span ref={ref}>I'm a Gopher.</span>;
 }
