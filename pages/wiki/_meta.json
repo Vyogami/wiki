@@ -12,6 +12,8 @@
     "title": "Computer Science"
   },
 
+  "devlog": "/dev/log",
+  "cli-tools": "CLI Tools",
   "docker": "",
   "dsa": "DSA",
   "git": "",
