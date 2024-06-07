@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown",
-    "**/*.{md,mdx}": "markdownlint"
+    "**/*.{md,mdx}": "markdownlint --fix -p .gitignore"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
