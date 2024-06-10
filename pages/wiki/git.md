@@ -97,6 +97,14 @@ To install Git, follow the instructions for your operating system from the offic
   git add .
   ```
 
+- **Stage hunks in patches**
+
+  ```shell
+  git add -p
+  ```
+
+  > Here: '-p' stands for '--patch'
+
 - **Commit changes:**
 
   ```bash
