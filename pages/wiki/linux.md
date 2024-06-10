@@ -86,6 +86,22 @@
 
   > Here: '-e' stands for '--expiredate'.
 
+### lscpu
+
+- Display information about CPU architecture
+
+  ```shell
+  lscpu
+  ```
+
+- Display the CPU information in human readable format.
+
+  ```shell
+  lscpu -e
+  ```
+
+  > Here: '-e' stands for '--extended'.
+
 ## Problemo
 
 ### Check battery health
