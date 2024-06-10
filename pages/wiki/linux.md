@@ -88,8 +88,38 @@
 
 ## Problemo
 
-- Check battery health.
+### Check battery health
 
-  ```shell
-  upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```shell
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+```
+
+### Changing Default Editor in shell
+
+To set Neovim as default editor, add the following line to the shell's startup file(.bashrc, .zshrc, config.fish):
+
+- For zsh and bash
+
+  ```sh
+  export EDITOR=nvim
   ```
+
+- For fish (`~/.config/fish/config.fish`):
+
+  ```sh
+  set -Ux EDITOR nvim
+  ```
+
+#### Special Case: `visudo`
+
+`sudo` sanitizes environment variables, so the above method won't work for `visudo`. Use this command instead:
+
+```sh
+sudo EDITOR=nvim visudo
+```
+
+Alternatively, add the following line to the top of your `/etc/sudoers` file:
+
+```sh
+Defaults editor=/usr/bin/nvim
+```
