@@ -312,6 +312,18 @@ To install Git, follow the instructions for your operating system from the offic
   git diff <branch_or_commit>..<branch_or_commit>
   ```
 
+- **View the difference between changes in working directory and last commit:**
+
+  ```shell
+  git diff
+  ```
+
+- **View the difference between changes in staging area and last commit:**
+
+  ```shell
+  git diff --staged
+  ```
+
 - **Show changes introduced by a commit:**
 
   ```bash
