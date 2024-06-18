@@ -275,3 +275,19 @@ Resources related to various topics and fields.
 
 - <https://www.duplichecker.com/>
 - <https://plagiarismdetector.net/>
+
+## Jargons
+
+List of some common jargons.
+
+### Tech Jargons
+
+- **Varadic:** A function that can accept a variable number of arguments.
+- **Abstraction:** The process of hiding complex implementation details and showing only the necessary features of an object.
+- **Runtime:** The period during which a program is executed.
+- **Reactor:** A design pattern used in event-driven systems to handle service requests concurrently.
+- **Future:** A placeholder for a value that will be available at some point in the future, commonly used in asynchronous programming.
+- **Encapsulation:** The bundling of data and methods that operate on the data into a single unit, often used to restrict access to certain components of an object.
+- **Blob (Binary Large Object):** A collection of binary data stored as a single entity in a database, typically used for storing images, videos, and other multimedia files.
+- **Glob:** A pattern used for matching file and directory names based on wildcards, often utilized in file searching and manipulation tasks.
+- **Wildcards:** Characters used in search patterns to represent one or more other characters, often used in file searching, text matching, and database queries (e.g., `*`, `?`).
