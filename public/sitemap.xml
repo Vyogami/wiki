@@ -1,95 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
   <url>
-    <loc>https://www.vyogami.in/</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/</loc>
+    <lastmod>2024-12-04T18:29:36+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/resources</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/resources</loc>
+    <lastmod>2024-12-04T18:29:37+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/jargons</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/devlog/20240606</loc>
+    <lastmod>2024-12-04T18:29:37+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/docker</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/docker</loc>
+    <lastmod>2024-12-04T18:29:37+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/dsa</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/dsa</loc>
+    <lastmod>2024-12-04T18:29:38+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/git</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/git</loc>
+    <lastmod>2024-12-04T18:29:38+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/groovy</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/groovy</loc>
+    <lastmod>2024-12-04T18:29:38+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/jvm-tools/gradle</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/gtk</loc>
+    <lastmod>2024-12-04T18:29:39+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/jvm-tools/maven</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/jvm-tools/gradle</loc>
+    <lastmod>2024-12-04T18:29:39+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/jvm-tools/sdkman</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/jvm-tools/maven</loc>
+    <lastmod>2024-12-04T18:29:39+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/matlab</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/jvm-tools/sdkman</loc>
+    <lastmod>2024-12-04T18:29:40+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/oss-programs</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/linux</loc>
+    <lastmod>2024-12-04T18:29:40+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/python-tools/conda</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/matlab</loc>
+    <lastmod>2024-12-04T18:29:40+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/python-tools/pip</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/open-source/oss-programs-list</loc>
+    <lastmod>2024-12-04T18:29:40+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/python-tools/poetry</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/open-source/c4gt</loc>
+    <lastmod>2024-12-04T18:29:41+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/python-tools/venv</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/open-source/gsoc</loc>
+    <lastmod>2024-12-04T18:29:41+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://www.vyogami.in/wiki/qemu</loc>
-    <lastmod>2024-05-05T00:49:25+00:00</lastmod>
+    <loc>https://vyogami.in/wiki/open-source/ospp</loc>
+    <lastmod>2024-12-04T18:29:41+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/open-source/lfx-mentorship</loc>
+    <lastmod>2024-12-04T18:29:41+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/open-source/kde</loc>
+    <lastmod>2024-12-04T18:29:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/open-source/sugarlabs</loc>
+    <lastmod>2024-12-04T18:29:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/python-tools/conda</loc>
+    <lastmod>2024-12-04T18:29:42+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/python-tools/pip</loc>
+    <lastmod>2024-12-04T18:29:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/python-tools/poetry</loc>
+    <lastmod>2024-12-04T18:29:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/python-tools/venv</loc>
+    <lastmod>2024-12-04T18:29:43+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/qemu</loc>
+    <lastmod>2024-12-04T18:29:44+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/amity/placements</loc>
+    <lastmod>2024-12-04T18:29:44+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/interview-prep</loc>
+    <lastmod>2024-12-04T18:29:44+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://vyogami.in/wiki/python</loc>
+    <lastmod>2024-12-04T18:29:44+00:00</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>
