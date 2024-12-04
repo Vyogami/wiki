@@ -39,8 +39,8 @@ export default {
           property="og:description"
           content="I'm Shivam Shandilya aka Vyogami, I'm a devloper, designer and an engineer in training!"
         />
-        <meta property="og:url" content="https://vyogami.co" />
-        <meta property="og:image" content="https://vyogami.co/og-slogan.png" />
+        <meta property="og:url" content="https://vyogami.in" />
+        <meta property="og:image" content="https://vyogami.in/og-slogan.png" />
         <meta name="twitter:title" content="Shivam Shandilya | Vyogami" />
         <meta
           name="twitter:description"
@@ -48,7 +48,7 @@ export default {
         />
         <meta name="twitter:site" content="@vyogami" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://vyogami.co/og-slogan.png" />
+        <meta name="twitter:image" content="https://vyogami.in/og-slogan.png" />
       </>
     );
   },
