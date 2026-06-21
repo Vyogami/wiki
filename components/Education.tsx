@@ -6,17 +6,15 @@ export function Education() {
     <div className={styles.root}>
       <ul className={styles.education}>
         <li className={styles.text}>
-          I'm a junior year
-          <br />
-          undergrad student.
+          I'm a SWE @Ciena
         </li>
         <li className={styles.icon}>
           <Rocket />
         </li>
         <li className={styles.text}>
-          Pursuing bachelors in
+          I'm also a full time
           <br />
-          Data Science and CSE
+          archlinux user
         </li>
       </ul>
     </div>
